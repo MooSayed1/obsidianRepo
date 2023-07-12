@@ -152,4 +152,5 @@ By Mohamed Elsayed Rabie
     - **`scp`**: Securely copy files between hosts.
     - **`wget`**: Download files from the web.
     - **`curl`**: Transfer data from or to a server.
-    -  **<span style="color:#DA1416; background-color:1. #238F3F">cd</span>**  change directory
+    -  **<span style="color:#DA1416; background-color:1. #238F3F">**`cd`**:</span>**  change directory
+    - Test Plugin
