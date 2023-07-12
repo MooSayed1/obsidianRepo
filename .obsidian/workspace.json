@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "myVault/New Information to me.md",
+                "file": "myVault/Linux Command.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "myVault/New Information to me.md",
+                "file": "myVault/Linux Command.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "myVault/New Information to me.md",
+                "file": "myVault/Linux Command.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "myVault/New Information to me.md"
+                "file": "myVault/Linux Command.md"
               }
             }
           }
@@ -162,6 +162,10 @@
   },
   "active": "f3699ae4cd1f8ca0",
   "lastOpenFiles": [
+    "myVault/Shell Scripting.md",
+    "myVault/Linux Command.md",
+    "myVault/Notes Data Structure.md",
+    "myVault/New Information to me.md",
     "Formatting/Callout.md",
     "Formatting/Format your notes.md",
     "Formatting/Footnote.md",
@@ -170,9 +174,6 @@
     "Formatting/Diagram.md",
     "Formatting/Comment.md",
     "Formatting/Code block.md",
-    "myVault/Notes Data Structure.md",
-    "myVault/New Information to me.md",
-    "myVault/Linux Command.md",
     "Formatting/Blockquote.md",
     "myVault/Git Hub Command.md",
     "myVault/Recursion.md",
@@ -194,7 +195,6 @@
     "Formatting/Links.md",
     "Formatting/Internal link.md",
     "Formatting/Inline code.md",
-    "Formatting/Images.md",
     "photos/Pasted image 20230712100209.png",
     "photos",
     "Pasted image 20230712100209.png"
