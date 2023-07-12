@@ -35,8 +35,31 @@ By Mohamed Elsayed
  ```shell
 git remote set-url origin https://github.com/OWNER/REPOSITORY.git
 ```
+>to switch between HTTPS and SSH
+
+```shell
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+to generate ssh key and connect by github
+
 ```shell
 $ git remote -v
 > origin  git@github.com:OWNER/REPOSITORY.git (fetch)
 > origin  git@github.com:OWNER/REPOSITORY.git (push)
+```
+
+```md
+- `git help config`: This command is used to open the Git manual, which contains detailed information about configuring Git and other Git commands.
+    
+- `git config -l` or `git config --list`: This command is used to display a list of all the configuration settings in your Git installation.
+    
+- `git config --global user.name`: This command is used to display the username associated with your Git account.
+    
+- `git config --global user.name "user name"`: This command is used to set the username associated with your Git account.
+    
+- `git config --global user.email`: This command is used to display the email address associated with your Git account.
+    
+- `git config --global user.email "user email"`: This command is used to set the email address associated with your Git account.
+    
+- `git config --global --edit`: This command is used to open the Git configuration file in your default text editor, allowing you to edit the configuration settings directly.
 ```
