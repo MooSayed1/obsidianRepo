@@ -73,3 +73,37 @@ For example, if you want to create an alias for the `commit -m` command, you c
 ```shell
 git config --global alias.cm "commit -m"
 ```
+
+#
+
+Git is a popular version control system used in software development. GitHub is a web-based platform that provides hosting for Git repositories and also offers several other useful features. Here are some of the most commonly used Git Hub commands:
+
+- `git init`: Initializes a new Git repository locally.
+- `git clone {repository URL}`: Creates a local copy of a remote repository.
+- `git add {file}`: Adds the specified file to the staging area.
+- `git commit -m "{commit message}"`: Commits changes to the repository with a specified commit message.
+- `git push`: Pushes committed changes to the remote repository.
+- `git pull`: Fetches and merges changes from the remote repository to the local repository.
+- `git branch`: Lists all branches in the repository.
+- `git checkout {branch name}`: Switches to the specified branch.
+- `git merge {branch name}`: Merges the specified branch into the current branch.
+- `git status`: Lists the current status of the repository.
+
+These are just a few of the many commands available in Git and GitHub. For more information, consult the official documentation or search for online tutorials and guides. Happy coding!
+
+# Branches 
+
+```md
+- `git branch nameofbranch`: This command is used to create a new branch with the name "nameofbranch". Replace "nameofbranch" with the name you want to give to your new branch.
+    
+- `git branch`: This command is used to list all the branches in your local repository.
+    
+- `git checkout nameofbranch`: This command is used to switch to the branch with the name "nameofbranch". Replace "nameofbranch" with the name of the branch you want to switch to.
+    
+- `git branch -d nameofbranch`: This command is used to delete the branch with the name "nameofbranch". However, if you have made changes in the branch that you have not merged, Git will not allow you to delete the branch. You will need to either merge the changes first or use the `-D` option to force the deletion.
+    
+- `git branch -D nameofbranch`: This command is used to force delete the branch with the name "nameofbranch", even if you have made changes in the branch and have not merged them.
+    
+- `git checkout -b nameofbranch`: This command is used to create a new branch with the name "nameofbranch" and switch to it in one step.
+```
+

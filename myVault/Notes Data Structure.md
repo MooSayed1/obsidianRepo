@@ -1,0 +1,121 @@
+- REVISION
+
+Note 1 : this in a new initialize of pointer i don’t know
+
+```cpp
+#include <iostream>
+#include<algorithm>
+using namespace std;
+struct Test
+{
+    int lenght;
+    int width;
+};
+int main()
+{
+    Test t;
+    t.lenght=5;
+    t.width=3;
+    Test *ptr=&t;
+
+    cout<<(*ptr).lenght<<endl;
+    cout<<(*ptr).width<<endl;
+
+    return 0;
+}
+
+```
+
+Note 2 —>All of pointer take size 8
+
+```cpp
+#include <iostream>
+#include<algorithm>
+using namespace std;
+struct Test
+{
+    int lenght;
+    int width;
+
+};
+int main()
+{
+
+    int *ptr1;
+    char *ptr2;
+    float *ptr3;
+    double *ptr4;
+    Test *ptr5;
+    cout<<sizeof(ptr1)<<endl;
+    cout<<sizeof(ptr2)<<endl;
+    cout<<sizeof(ptr3)<<endl;
+    cout<<sizeof(ptr4)<<endl;
+    cout<<sizeof(ptr5)<<endl;
+    return 0;
+
+}
+```
+
+Note 3 —>
+
+```cpp
+#include <iostream>
+#include<algorithm>
+using namespace std;
+struct Test{
+int lenght;
+int width;
+char a;
+};
+int main() {
+
+  Test t;
+  cout<<sizeof(t)<<endl;
+    return 0;
+
+}
+// This code Will Print 12 because it easyer to compiler to store the 4 4 4 
+// احسن ما يخزن بالشكل ده ويرجع يخزن 2 لو حاجه تانيه
+```
+
+Note 4 —> Array only pass as address like this —> void add(int A[]) address is A and the brackets to point at more that one and point to array and you can use void add(*A) to point in any thing to array or variable but A[] point at array only
+
+5- call by value and call by reference and call by address —> Enter [here](https://pencilprogrammer.com/cpp-tutorials/call-by-value-reference-address/)
+
+6- array as a parameter —> Enter [here](https://www.tutorialspoint.com/cplusplus/cpp_passing_arrays_to_functions.htm)
+
+7- we say previous That Array only pass by address but there is trick you can pass array by value when you made array on struct and pass this struct by value :
+
+Syntax-wise, strictly speaking you _cannot_ pass an array by value in C.
+
+```cpp
+void func (int* x); /* this is a pointer */
+
+void func (int x[]); /* this is a pointer */
+
+void func (int x[10]); /* this is a pointer */
+
+```
+
+_However_, for the record there is a dirty trick in C that does allow you to pass an array by value in C. Don't try this at home! Because despite this trick, there is still never a reason to pass an array by value.
+
+```cpp
+typedef struct Array_by_val
+{
+  int my_array[10];
+} ;
+
+void func (Array_by_val x);
+```
+
+8- Monolithic program that write all in the main function but Modular program that divide to a functions and in the last call all functions in the main function
+
+9- [Template](https://www.geeksforgeeks.org/templates-cpp/) —> template Function and template class
+
+[here](https://www.geeksforgeeks.org/templates-cpp/)
+
+- _**START IN DATA STRUCTURE**_
+
+insersion sort take c1 n^2 time but mege sort take c2 n log2 n the const c2>c1 when the input n is the small value the insersion sort be faster and when the input value is large the merge sort became faster because it take n * log n .here const not very efficent in the sort read document —> [insersion sort](https://www.geeksforgeeks.org/insertion-sort/)
+
+[merge sort](https://www.geeksforgeeks.org/merge-sort/)REVISION
