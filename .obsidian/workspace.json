@@ -32,37 +32,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "b6a6af812b996ecf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Formatting/Blockquote.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "22da4437eb1b0f25",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "fbeeb64d50bdcfd0",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Shell",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +80,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -128,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "myVault/Git Hub Command.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "myVault/Git Hub Command.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "myVault/Git Hub Command.md"
+              }
             }
           }
         ]
@@ -185,10 +162,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fbeeb64d50bdcfd0",
+  "active": "2e2b39c7b49109c5",
   "lastOpenFiles": [
-    "myVault/Git Hub Command.md",
     "Formatting/Blockquote.md",
+    "myVault/Git Hub Command.md",
     "photos/Pasted image 20230712100209.png",
     "photos",
     "Pasted image 20230712100209.png",

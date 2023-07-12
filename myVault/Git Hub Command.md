@@ -29,9 +29,9 @@ By Mohamed Elsayed
 - `git pull nameofrepo`: This command is used to download changes from a remote repository to your local repository. It retrieves all the changes from the remote repository and integrates them into your local repository.
     
 - `git log`: This command is used to display the commit history of the current branch. It will show you the author, date, and commit message for each commit.
+```
 
- ```
- 
+ # Shell secure key
  ```shell
 git remote set-url origin https://github.com/OWNER/REPOSITORY.git
 ```
@@ -47,7 +47,7 @@ $ git remote -v
 > origin  git@github.com:OWNER/REPOSITORY.git (fetch)
 > origin  git@github.com:OWNER/REPOSITORY.git (push)
 ```
-
+# 
 ```md
 - `git help config`: This command is used to open the Git manual, which contains detailed information about configuring Git and other Git commands.
     
@@ -62,4 +62,14 @@ $ git remote -v
 - `git config --global user.email "user email"`: This command is used to set the email address associated with your Git account.
     
 - `git config --global --edit`: This command is used to open the Git configuration file in your default text editor, allowing you to edit the configuration settings directly.
+```
+
+## ```
+# Alias
+
+- `git config --global alias.AbbreviationOfCommand command`: This command is used to create an alias for a Git command. Replace "AbbreviationOfCommand" with the abbreviation you want to use for the command, and "command" with the full Git command you want to alias.
+
+For example, if you want to create an alias for the `commit -m` command, you can use the following code:
+```shell
+git config --global alias.cm "commit -m"
 ```
