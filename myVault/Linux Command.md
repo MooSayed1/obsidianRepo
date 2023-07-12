@@ -153,4 +153,4 @@ By Mohamed Elsayed Rabie
     - **`wget`**: Download files from the web.
     - **`curl`**: Transfer data from or to a server.
     -  **<span style="color:#DA1416; background-color:1. #238F3F">**`cd`**:</span>**  change directory
-    - Test Plugin
+    - 
