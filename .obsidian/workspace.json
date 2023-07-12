@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "myVault/Git Hub Command.md",
-                "mode": "source",
+                "file": "myVault/Notes Data Structure.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "myVault/Git Hub Command.md",
+                "file": "myVault/Notes Data Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "myVault/Git Hub Command.md",
+                "file": "myVault/Notes Data Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "myVault/Git Hub Command.md"
+                "file": "myVault/Notes Data Structure.md"
               }
             }
           }
@@ -156,13 +156,23 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false
     }
   },
   "active": "f3699ae4cd1f8ca0",
   "lastOpenFiles": [
-    "myVault/Linux Command.md",
     "myVault/Git Hub Command.md",
+    "Recording 20230712210222.webm.md",
+    "Recording 20230712210235.webm.md",
+    "myVault/Linux Command.md",
+    "Recording 20230712210317.webm",
+    "Recording 20230712210222.webm",
+    "Recording 20230712210235.webm",
+    "Recording 20230712210234.webm",
+    "Recording 20230712210232.webm",
+    "Recording 20230712210230.webm",
+    "Recording 20230712210227.webm",
     "Formatting/Task.md",
     "Formatting/Table.md",
     "Formatting/Strikethrough.md",
@@ -185,8 +195,6 @@
     "Formatting/Callout.md",
     "Formatting/Blockquote.md",
     "myVault/Notes Data Structure.md",
-    "myVault/Plugins make Obsidian special for you.md",
-    "myVault/New Information to me.md",
     "photos/Pasted image 20230712100209.png",
     "photos",
     "Pasted image 20230712100209.png"
