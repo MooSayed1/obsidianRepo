@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "myVault/Notes Data Structure.md",
-                "mode": "preview",
+                "file": "myVault/New Information to me.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "myVault/Notes Data Structure.md",
+                "file": "myVault/New Information to me.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "myVault/Notes Data Structure.md",
+                "file": "myVault/New Information to me.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "myVault/Notes Data Structure.md"
+                "file": "myVault/New Information to me.md"
               }
             }
           }
@@ -162,10 +162,23 @@
   },
   "active": "f3699ae4cd1f8ca0",
   "lastOpenFiles": [
+    "Formatting/Callout.md",
+    "Formatting/Format your notes.md",
+    "Formatting/Footnote.md",
+    "Formatting/Emphasis.md",
+    "Formatting/Embeds.md",
+    "Formatting/Diagram.md",
+    "Formatting/Comment.md",
+    "Formatting/Code block.md",
+    "myVault/Notes Data Structure.md",
+    "myVault/New Information to me.md",
+    "myVault/Linux Command.md",
+    "Formatting/Blockquote.md",
     "myVault/Git Hub Command.md",
+    "myVault/Recursion.md",
+    "myVault/Vault is just a local folder.md",
     "Recording 20230712210222.webm.md",
     "Recording 20230712210235.webm.md",
-    "myVault/Linux Command.md",
     "Recording 20230712210317.webm",
     "Recording 20230712210222.webm",
     "Recording 20230712210235.webm",
@@ -182,19 +195,6 @@
     "Formatting/Internal link.md",
     "Formatting/Inline code.md",
     "Formatting/Images.md",
-    "Formatting/Horizontal divider.md",
-    "Formatting/Highlighting.md",
-    "Formatting/Heading.md",
-    "Formatting/Format your notes.md",
-    "Formatting/Footnote.md",
-    "Formatting/Emphasis.md",
-    "Formatting/Embeds.md",
-    "Formatting/Diagram.md",
-    "Formatting/Comment.md",
-    "Formatting/Code block.md",
-    "Formatting/Callout.md",
-    "Formatting/Blockquote.md",
-    "myVault/Notes Data Structure.md",
     "photos/Pasted image 20230712100209.png",
     "photos",
     "Pasted image 20230712100209.png"

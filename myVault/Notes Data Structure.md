@@ -116,6 +116,11 @@ void func (Array_by_val x);
 
 - _**START IN DATA STRUCTURE**_
 
-insersion sort take c1 n^2 time but mege sort take c2 n log2 n the const c2>c1 when the input n is the small value the insersion sort be faster and when the input value is large the merge sort became faster because it take n * log n .here const not very efficent in the sort read document —> [insersion sort](https://www.geeksforgeeks.org/insertion-sort/)
+[insersion sort](https://www.geeksforgeeks.org/insertion-sort/) has a time complexity of O(n^2), where n is the size of the input array. The constant factor c1 is typically small, but the algorithm's performance degrades quickly as the input size grows. Insertion sort is most efficient when the input size is small.
 
-[merge sort](https://www.geeksforgeeks.org/merge-sort/)REVISION
+On the other hand, [merge sort](https://www.geeksforgeeks.org/merge-sort/) has a time complexity of O(n log2 n). The constant factor c2 is typically larger than c1, but the algorithm's performance remains good even as the input size grows. Merge sort is most efficient when the input size is large.
+
+Therefore, depending on the size of the input, one algorithm may be faster than the other. For small input sizes, insertion sort may be faster, while for large input sizes, merge sort may be faster. However, in practice, other factors such as the specific implementation and hardware can also affect the actual performance of these algorithms.
+
+[[Recursion]]
+
