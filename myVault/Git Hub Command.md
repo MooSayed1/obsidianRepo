@@ -77,6 +77,7 @@ git config --global alias.cm "commit -m"
 #
 
 Git is a popular version control system used in software development. GitHub is a web-based platform that provides hosting for Git repositories and also offers several other useful features. Here are some of the most commonly used Git Hub commands:
+```md
 
 - `git init`: Initializes a new Git repository locally.
 - `git clone {repository URL}`: Creates a local copy of a remote repository.
@@ -90,6 +91,7 @@ Git is a popular version control system used in software development. GitHub is 
 - `git status`: Lists the current status of the repository.
 
 These are just a few of the many commands available in Git and GitHub. For more information, consult the official documentation or search for online tutorials and guides. Happy coding!
+```
 
 # Branches 
 
@@ -105,5 +107,8 @@ These are just a few of the many commands available in Git and GitHub. For more 
 - `git branch -D nameofbranch`: This command is used to force delete the branch with the name "nameofbranch", even if you have made changes in the branch and have not merged them.
     
 - `git checkout -b nameofbranch`: This command is used to create a new branch with the name "nameofbranch" and switch to it in one step.
+• `git branch -m newName` rename breach you are in it 
+• `git merge nameofbranch`  merge master or the brach you are in by the branch you want
 ```
+# 
 
