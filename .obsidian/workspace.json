@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "myVault/Linux Command.md",
+                "file": "Algo Book/2.3 Designing algorithms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d6523fe96533b88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algo Book/2.3 Designing algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "myVault/Linux Command.md",
+                "file": "Algo Book/2.3 Designing algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "myVault/Linux Command.md",
+                "file": "Algo Book/2.3 Designing algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "myVault/Linux Command.md"
+                "file": "Algo Book/2.3 Designing algorithms.md"
               }
             }
           }
@@ -162,15 +174,21 @@
   },
   "active": "f3699ae4cd1f8ca0",
   "lastOpenFiles": [
-    "Formatting/Callout.md",
+    "Algo Book/Table of Contents.md",
+    "Algo Book/2.3 Designing algorithms.md",
+    "Formatting/Embeds.md",
+    "Formatting/Internal link.md",
+    "myVault/Algo Book.md",
+    "part 1.md",
+    "Algo Book",
     "myVault/Linux Command.md",
+    "Formatting/Callout.md",
     "myVault/Shell Scripting.md",
     "myVault/Notes Data Structure.md",
     "myVault/New Information to me.md",
     "Formatting/Format your notes.md",
     "Formatting/Footnote.md",
     "Formatting/Emphasis.md",
-    "Formatting/Embeds.md",
     "Formatting/Diagram.md",
     "Formatting/Comment.md",
     "Formatting/Code block.md",
@@ -190,11 +208,6 @@
     "Formatting/Task.md",
     "Formatting/Table.md",
     "Formatting/Strikethrough.md",
-    "Formatting/Math.md",
-    "Formatting/Lists.md",
-    "Formatting/Links.md",
-    "Formatting/Internal link.md",
-    "Formatting/Inline code.md",
     "photos/Pasted image 20230712100209.png",
     "photos",
     "Pasted image 20230712100209.png"
