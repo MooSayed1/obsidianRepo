@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "myVault/Notes Data Structure.md",
-                "mode": "preview",
+                "file": "Algo Book/2.3 Designing algorithms.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "myVault/Notes Data Structure.md",
+                "file": "Algo Book/2.3 Designing algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "myVault/Notes Data Structure.md",
+                "file": "Algo Book/2.3 Designing algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "myVault/Notes Data Structure.md"
+                "file": "Algo Book/2.3 Designing algorithms.md"
               }
             }
           }
@@ -174,6 +174,7 @@
   },
   "active": "f3699ae4cd1f8ca0",
   "lastOpenFiles": [
+    "myVault/Notes Data Structure.md",
     "Algo Book/2.3 Designing algorithms.md",
     "Algo Book/Table of Contents.md",
     "Formatting/Embeds.md",
@@ -184,7 +185,6 @@
     "myVault/Linux Command.md",
     "Formatting/Callout.md",
     "myVault/Shell Scripting.md",
-    "myVault/Notes Data Structure.md",
     "myVault/New Information to me.md",
     "Formatting/Format your notes.md",
     "Formatting/Footnote.md",
