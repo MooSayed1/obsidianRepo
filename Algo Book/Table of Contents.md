@@ -2,16 +2,16 @@
 ## I. Foundations
 - [Introduction](#introduction)
 - [1. The Role of Algorithms in Computing](#1-the-role-of-algorithms-in-computing)
-    - [1.1 Algorithms](#11-algorithms)
-    - [1.2 Algorithms as a technology](#12-algorithms-as-a-technology)
+    - [[1.1 Algorithms]]
+    - [[1.2 Algorithms as a technology]]
 - [2. Getting Started](#2-getting-started)
-    - [2.1 Insertion sort](#21-insertion-sort)
-    - [2.2 Analyzing algorithms](#22-analyzing-algorithms)
+    - [[2.1 Insertion sort]]
+    - [[2.2 Analyzing algorithms]]
     - [[2.3 Designing algorithms]]
 - [3. Characterizing Running Times](#3-characterizing-running-times)
-    - [3.1 O-notation, Ω-notation, and Θ-notation](#31-o-notation-ω-notation-and-θ-notation)
-    - [3.2 Asymptotic notation: formal definitions](#32-asymptotic-notation-formal-definitions)
-    - [3.3 Standard notations and common functions](#33-standard-notations-and-common-functions)
+    - [[3.1 O-notation, Ω-notation, and Θ-notation]]
+    - [[3.2 Asymptotic notation formal definitions]]
+    - [[3.3 Standard notations and common functions]]
 - [4. Divide-and-Conquer](#4-divide-and-conquer)
     - [4.1 Multiplying square matrices](#41-multiplying-square-matrices)
     - [4.2 Strassen’s algorithm for matrix multiplication](#42-strassens-algorithm-for-matrix-multiplication)
