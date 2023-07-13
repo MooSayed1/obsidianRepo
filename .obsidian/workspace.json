@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algo Book/Table of Contents.md",
-                "mode": "preview",
+                "file": "myVault/Recursion.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algo Book/Table of Contents.md",
+                "file": "myVault/Recursion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algo Book/Table of Contents.md",
+                "file": "myVault/Recursion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algo Book/Table of Contents.md"
+                "file": "myVault/Recursion.md"
               }
             }
           }
@@ -174,8 +174,21 @@
   },
   "active": "29764e69707f6b24",
   "lastOpenFiles": [
-    "Algo Book/2.3 Designing algorithms.md",
+    "Formatting/Links.md",
+    "Formatting/Table.md",
+    "Formatting/Strikethrough.md",
+    "Formatting/Math.md",
+    "Formatting/Lists.md",
+    "myVault/Recursion.md",
+    "Formatting/Blockquote.md",
+    "Formatting/Callout.md",
+    "Formatting/Code block.md",
+    "Formatting/Comment.md",
+    "Formatting/Diagram.md",
+    "Formatting/Embeds.md",
+    "Formatting/Internal link.md",
     "Algo Book/Table of Contents.md",
+    "Algo Book/2.3 Designing algorithms.md",
     "Algo Book/3.3 Standard notations and common functions.md",
     "Algo Book/3.2 Asymptotic notation formal definitions.md",
     "Algo Book/3.1 O-notation, Ω-notation, and Θ-notation.md",
@@ -185,22 +198,9 @@
     "Algo Book/1.1 Algorithms.md",
     "myVault/Linux Command.md",
     "myVault/Notes Data Structure.md",
-    "Formatting/Embeds.md",
-    "Formatting/Internal link.md",
     "myVault/Algo Book.md",
     "part 1.md",
     "Algo Book",
-    "Formatting/Callout.md",
-    "myVault/Shell Scripting.md",
-    "myVault/New Information to me.md",
-    "Formatting/Format your notes.md",
-    "Formatting/Footnote.md",
-    "Formatting/Emphasis.md",
-    "Formatting/Diagram.md",
-    "Formatting/Comment.md",
-    "Formatting/Code block.md",
-    "Formatting/Blockquote.md",
-    "myVault/Git Hub Command.md",
     "Recording 20230712210317.webm",
     "Recording 20230712210222.webm",
     "Recording 20230712210235.webm",
