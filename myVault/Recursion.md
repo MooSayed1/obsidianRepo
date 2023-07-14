@@ -196,7 +196,7 @@ return 0;
 
 ```cpp
 Power Function
-int power(int m,int n)
+int power(int m,int n)// this function take o(n) time
 {
 if(n==0)
 return 1;
@@ -207,10 +207,9 @@ int power1(int m,int n)
 if(n==0)
 return 1;
 if(n%2==0)
-return
-2);
+return power1(m*m,n/2);
 return m * power1(m*m,(n-1)/2);
-}
+}// this function is faster than the first one that take less number of multipl
 int main()
 {
 int r=power1(9,3);
