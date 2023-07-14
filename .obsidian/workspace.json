@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursion.md",
+                "file": "myVault/Recursion.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursion.md",
+                "file": "myVault/Recursion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursion.md",
+                "file": "myVault/Recursion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursion.md"
+                "file": "myVault/Recursion.md"
               }
             }
           }
@@ -179,7 +179,7 @@
     "Formatting/Strikethrough.md",
     "Formatting/Math.md",
     "Formatting/Lists.md",
-    "Recursion.md",
+    "myVault/Recursion.md",
     "Formatting/Blockquote.md",
     "Formatting/Callout.md",
     "Formatting/Code block.md",
