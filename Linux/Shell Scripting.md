@@ -13,7 +13,7 @@ chmod a+x first.sh
 the first comman give rights to user to execute 
 the secend give user all of right -wrx --> write and read and execute 
 third give all rights of execute all--> usr and group and other 
-if you don't have knowledge of file permissons read this #FilePermission  
+if you don't have knowledge of file permissons read about #FilePermission  
 
 you can execute the file by 
 ```shell 
@@ -25,13 +25,15 @@ after that you can start to write your script
 ```shell 
 #!bin/bash
 echo Hello Wordld
+echo hello         world
 ```
 output 
 ```md
 Hello World
+hello world
 ```
 
-> [!Note] Note About echo
+> [!Note] Note About the last example
 > First, note that `echo` puts ONE space between its parameters. Put a few spaces between "Hello" and "World". What do you expect the output to be? What about putting a TAB character between them?  
 As always with shell programming, try it and see.  
 The output is exactly the same! We are calling the `echo` program with two arguments; it doesn't care any more than `cp` does about the gaps in between them. Now modify the code again:
@@ -63,4 +65,18 @@ echo "Hello \"*\" World"
 echo `hello` world
 echo 'hello' world
 ```
+
+
+>[!hint]- Answers
+Hello      World
+Hello World
+Hello * World
+Hello first2.sh first.sh World
+Hello World
+Hello World
+Hello       World
+Hello * World
+hello world
+
+
 this link to myScripts in git hub [myScripts](https://github.com/Moosayed1/obsidianRepo/tree/main/Linux/myScripts)

@@ -10,41 +10,30 @@
           {
             "id": "da8589676db5020f",
             "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Linux Command.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f3699ae4cd1f8ca0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algo Book/Table of Contents.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29764e69707f6b24",
-            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Linux/Shell Scripting.md",
                 "mode": "source",
                 "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "9c6e1e5681bdc18e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Formatting/Callout.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "section:()",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -173,44 +162,44 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "29764e69707f6b24",
+  "active": "da8589676db5020f",
   "lastOpenFiles": [
+    "Formatting/Callout.md",
+    "Formatting/Code block.md",
+    "Formatting/Comment.md",
+    "Formatting/Diagram.md",
+    "Formatting/Footnote.md",
+    "Linux/Shell Scripting.md",
+    "Linux/Linux Command.md",
+    "Formatting/Blockquote.md",
+    "Algo Book/Table of Contents.md",
+    "2023-07-15.md",
     "Linux/myScripts/first2.sh",
     "Linux/myScripts/first.sh",
     "Linux/myScripts",
     "myVault/Vault is just a local folder.md",
-    "Linux/Shell Scripting.md",
     "myVault/Start Here.md",
     "Linux/Nvim and configration of it.md",
     "Linux",
-    "Linux/Linux Command.md",
     "myVault/Recursion.md",
     "Formatting/Links.md",
     "Formatting/Table.md",
     "Formatting/Strikethrough.md",
     "Formatting/Math.md",
     "Formatting/Lists.md",
-    "Formatting/Blockquote.md",
-    "Formatting/Callout.md",
-    "Formatting/Code block.md",
-    "Formatting/Comment.md",
-    "Formatting/Diagram.md",
     "Formatting/Embeds.md",
     "Formatting/Internal link.md",
-    "Algo Book/Table of Contents.md",
     "Algo Book/2.3 Designing algorithms.md",
     "Algo Book/3.3 Standard notations and common functions.md",
     "Algo Book/3.2 Asymptotic notation formal definitions.md",
     "Algo Book/3.1 O-notation, Ω-notation, and Θ-notation.md",
     "Algo Book/2.2 Analyzing algorithms.md",
-    "Algo Book/2.1 Insertion sort.md",
     "Algo Book",
     "Recording 20230712210317.webm",
     "Recording 20230712210222.webm",
     "Recording 20230712210235.webm",
     "Recording 20230712210234.webm",
     "Recording 20230712210232.webm",
-    "Recording 20230712210230.webm",
     "photos/Pasted image 20230712100209.png",
     "Pasted image 20230712100209.png"
   ]
