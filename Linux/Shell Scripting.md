@@ -205,7 +205,7 @@ fi
 ```
 
 ```shell
-Note that `fi` is `if` backwards! This is used again later with [case](https://www.shellscript.sh/case.html) and `esac`.  
+Note that `fi` is `if` backwards! This is used again later with [case] and `esac` in switch cases.  
 Also, be aware of the syntax - the "`if [ ... ]`" and the "`then`" commands must be on different lines. Alternatively, the semicolon "`;`" can separate them:
 
 if [ ... ]; then
@@ -259,14 +259,14 @@ while true:
 do
   read INPUT_STRING
   case $INPUT_STRING in
-	hello)
+	hello)  # if [ input -eq "hello"]
 		echo "Hello yourself!"
 		;;
-	bye)
+	bye) # if inputt == bye
 		echo "See you again!"
 		break
 		;;
-	*)
+	*) # This equal else 
 		echo "Sorry, I don't understand"
 		;;
   esac
@@ -274,6 +274,7 @@ done
 echo 
 echo "That's all folks!"
 ```
+
 
 # External Programs
 
@@ -294,7 +295,7 @@ $ MYNAME=`grep "^${USER}:" /etc/passwd | cut -d: -f5`
 $ echo $MYNAME
 Mohamed Elsayed
 ```
-5- for loop
+# 5- for loop
 ```shell 
 # Syntax 1
 #!/bin/bash
@@ -321,7 +322,32 @@ do
   echo "i is : $i"
 done
 ```
+## until loop 
 
+```shell
+#!/bin/bash
+
+count=1
+
+until [ $count -gt 10 ]  # until the value become greater than 10 he will continue print count and increse it by 1
+do
+  echo $count
+  let count=count+1
+done
+#--------------------------
+# the same result of 
+for count in {1..10}
+do 
+  echo $count
+done
+#--------------------------
+count=1 
+while [ $count -le 10 ]
+do
+  echo $count
+  let count=count+1
+done
+```
 # 6- while loop 
 ```shell 
 #!/bin/bash
@@ -331,7 +357,8 @@ count=1
 while [ $count -le 10 ]
 do
   echo $count
-  count=$((count+1))
+  count=$((count+1)) # another synatax to it is --> let count=count +1
+  #let count=count+1
 done
 ```
 
@@ -349,7 +376,8 @@ do
 done
 ```
 
-```shwl
+```shell
+
 ```
 
 
