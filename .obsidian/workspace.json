@@ -176,6 +176,7 @@
   },
   "active": "d7d859818ebd916a",
   "lastOpenFiles": [
+    "Linux/myScripts/automationGitHub.sh",
     "Linux/myScripts/untilLoop.sh",
     "Linux/Linux Command.md",
     "Linux/Shell Scripting.md",
@@ -189,7 +190,6 @@
     "Formatting/Callout.md",
     "Linux/myScripts/ifConditions.sh",
     "Linux/myScripts/while2.sh",
-    "Linux/myScripts/while.sh",
     "Formatting/Code block.md",
     "Formatting/Comment.md",
     "Formatting/Diagram.md",
