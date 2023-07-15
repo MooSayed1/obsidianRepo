@@ -32,8 +32,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d7d859818ebd916a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Shell Scripting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -161,8 +174,10 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "da8589676db5020f",
+  "active": "d7d859818ebd916a",
   "lastOpenFiles": [
+    "Linux/Linux Command.md",
+    "Linux/Shell Scripting.md",
     "Linux/myScripts/var4.sh",
     "Linux/myScripts/NewFile.sh",
     "Linux/myScripts/bash.sh",
@@ -171,16 +186,13 @@
     "Linux/myScripts/crateBashFile.sh",
     "test.cpp",
     "Formatting/Callout.md",
-    "Linux/Shell Scripting.md",
     "Linux/myScripts/ifConditions.sh",
     "Linux/myScripts/while2.sh",
     "Linux/myScripts/while.sh",
-    "Linux/myScripts/forLoop2.sh",
     "Formatting/Code block.md",
     "Formatting/Comment.md",
     "Formatting/Diagram.md",
     "Formatting/Footnote.md",
-    "Linux/Linux Command.md",
     "Formatting/Blockquote.md",
     "Algo Book/Table of Contents.md",
     "2023-07-15.md",

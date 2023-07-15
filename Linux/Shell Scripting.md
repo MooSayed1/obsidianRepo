@@ -165,10 +165,10 @@ All parameters are hello world earth
 ```
 
 # Read about 
-#  [Wildcards](https://www.shellscript.sh/wildcards.html) 
-# [Escape characters](https://www.shellscript.sh/escape.html) 
+##  [Wildcards](https://www.shellscript.sh/wildcards.html) 
+## [Escape characters](https://www.shellscript.sh/escape.html) 
 
-# if condition
+# 3- if condition
 >[!info] conditons
 >- `eq`: equal to
 >- `ne`: not equal to
@@ -248,7 +248,8 @@ fi
 # and write !/bin/bash already in the file
 ```
 
-# switch case 
+
+# 4-switch case 
 
 ```shell 
 #!/bin/sh
@@ -293,6 +294,65 @@ $ MYNAME=`grep "^${USER}:" /etc/passwd | cut -d: -f5`
 $ echo $MYNAME
 Mohamed Elsayed
 ```
+5- for loop
+```shell 
+# Syntax 1
+#!/bin/bash
+
+for i in 1 2 3 4 5
+do
+  echo "Looping ... number $i"
+done
+```
+
+```shell
+# Syntax 2
+for ((i=0;i<10;i++))
+do
+  echo "Looping ... i is set to $i"
+done
+
+```
+
+```shell
+# Syntax 3
+for i in {1..10}
+do 
+  echo "i is : $i"
+done
+```
+
+# 6- while loop 
+```shell 
+#!/bin/bash
+
+count=1
+
+while [ $count -le 10 ]
+do
+  echo $count
+  count=$((count+1))
+done
+```
+
+```shell
+#!/bin/bash
+
+while true
+do
+  read -p "Enter a word (or 'quit' to exit): " word
+  if [ "$word" = "quit" ]
+  then
+    break
+  fi
+  echo "You entered: $word"
+done
+```
+
+```shwl
+```
+
+
 
 # Quick Reference
 look at this in a read mood : )
