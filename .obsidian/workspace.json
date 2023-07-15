@@ -42,21 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ee78c26a6e4f1026",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "myVault/Start Here.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0d6812be8fe06e8b",
@@ -122,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "myVault/Start Here.md",
+                "file": "Linux/Shell Scripting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "myVault/Start Here.md",
+                "file": "Linux/Shell Scripting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "myVault/Start Here.md"
+                "file": "Linux/Shell Scripting.md"
               }
             }
           }
@@ -184,12 +173,15 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "ee78c26a6e4f1026",
+  "active": "29764e69707f6b24",
   "lastOpenFiles": [
+    "Linux/myScripts/first2.sh",
+    "Linux/myScripts/first.sh",
+    "Linux/myScripts",
     "myVault/Vault is just a local folder.md",
+    "Linux/Shell Scripting.md",
     "myVault/Start Here.md",
     "Linux/Nvim and configration of it.md",
-    "Linux/Shell Scripting.md",
     "Linux",
     "Linux/Linux Command.md",
     "myVault/Recursion.md",
@@ -212,7 +204,6 @@
     "Algo Book/3.1 O-notation, Ω-notation, and Θ-notation.md",
     "Algo Book/2.2 Analyzing algorithms.md",
     "Algo Book/2.1 Insertion sort.md",
-    "Algo Book/1.2 Algorithms as a technology.md",
     "Algo Book",
     "Recording 20230712210317.webm",
     "Recording 20230712210222.webm",
@@ -220,9 +211,7 @@
     "Recording 20230712210234.webm",
     "Recording 20230712210232.webm",
     "Recording 20230712210230.webm",
-    "Recording 20230712210227.webm",
     "photos/Pasted image 20230712100209.png",
-    "photos",
     "Pasted image 20230712100209.png"
   ]
 }
