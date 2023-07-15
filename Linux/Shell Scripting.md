@@ -376,7 +376,7 @@ do
 done
 ```
 
-
+# Functions 
 
 # Quick Reference
 look at this in a read mood : )
