@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "myVault/Linux Command.md",
+                "file": "myVault/Recursion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "myVault/Linux Command.md",
+                "file": "myVault/Recursion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "myVault/Linux Command.md"
+                "file": "myVault/Recursion.md"
               }
             }
           }
@@ -172,8 +172,9 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "9520d8d366783360",
+  "active": "29764e69707f6b24",
   "lastOpenFiles": [
+    "myVault/Linux Command.md",
     "Formatting/Links.md",
     "Formatting/Table.md",
     "Formatting/Strikethrough.md",
@@ -196,7 +197,6 @@
     "Algo Book/2.1 Insertion sort.md",
     "Algo Book/1.2 Algorithms as a technology.md",
     "Algo Book/1.1 Algorithms.md",
-    "myVault/Linux Command.md",
     "myVault/Notes Data Structure.md",
     "myVault/Algo Book.md",
     "part 1.md",
