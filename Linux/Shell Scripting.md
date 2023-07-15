@@ -376,10 +376,6 @@ do
 done
 ```
 
-```shell
-
-```
-
 
 
 # Quick Reference
