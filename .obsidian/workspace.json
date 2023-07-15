@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "Linux/Shell Scripting.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true
@@ -163,6 +163,7 @@
   },
   "active": "da8589676db5020f",
   "lastOpenFiles": [
+    "Linux/myScripts/var4.sh",
     "Linux/myScripts/NewFile.sh",
     "Linux/myScripts/bash.sh",
     "Linux/myScripts/test.sh",
@@ -175,7 +176,6 @@
     "Linux/myScripts/while2.sh",
     "Linux/myScripts/while.sh",
     "Linux/myScripts/forLoop2.sh",
-    "Linux/myScripts/forLoop.sh",
     "Formatting/Code block.md",
     "Formatting/Comment.md",
     "Formatting/Diagram.md",

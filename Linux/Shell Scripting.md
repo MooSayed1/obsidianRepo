@@ -247,3 +247,85 @@ fi
 # this code create a bash file and give it execute rights 
 # and write !/bin/bash already in the file
 ```
+
+# switch case 
+
+```shell 
+#!/bin/sh
+
+echo "Please talk to me ..."
+while true:
+do
+  read INPUT_STRING
+  case $INPUT_STRING in
+	hello)
+		echo "Hello yourself!"
+		;;
+	bye)
+		echo "See you again!"
+		break
+		;;
+	*)
+		echo "Sorry, I don't understand"
+		;;
+  esac
+done
+echo 
+echo "That's all folks!"
+```
+
+# External Programs
+
+External programs are often used within shell scripts; there are a few builtin commands (`echo`, `which`, and `test` are commonly builtin), but many useful commands are actually Unix utilities, such as `tr`, `grep`, `expr` and `cut`.
+
+The backtick (`)is also often associated with external commands. Because of this, we will discuss the backtick first.  
+The backtick is used to indicate that the enclosed text is to be executed as a command. This is quite simple to understand. First, use an interactive shell to read your full name from `/etc/passwd`:
+
+```shell
+$ grep "^${USER}:" /etc/passwd | cut -d: -f5
+Mohamed Elsayed
+```
+
+Now we will grab this output into a variable which we can manipulate more easily:
+
+```shell
+$ MYNAME=`grep "^${USER}:" /etc/passwd | cut -d: -f5`
+$ echo $MYNAME
+Mohamed Elsayed
+```
+
+# Quick Reference
+look at this in a read mood : )
+
+|Command|Description|Example|
+|---|---|---|
+|&|Run the previous command in the background|`ls &`|
+|&&|Logical AND|`if [ "$foo" -ge "0" ] && [ "$foo" -le "9"]`|
+|\||Logical OR|`if [ "$foo" -lt "0" ] \| [ "$foo" -gt "9" ]`|
+|^|Start of line|`grep "^foo"`|
+|$|End of line|`grep "foo$"`|
+|=|String equality (cf. -eq)|`if [ "$foo" = "bar" ]`|
+|!|Logical NOT|`if [ "$foo" != "bar" ]`|
+|$$|PID of current shell|`echo "my PID = $$"`|
+|$!|PID of last background command|`ls & echo "PID of ls = $!"`|
+|$?|exit status of last command|`ls ; echo "ls returned code $?"`|
+|$0|Name of current command (as called)|`echo "I am $0"`|
+|$1|Name of current command's first parameter|`echo "My first argument is $1"`|
+|$9|Name of current command's ninth parameter|`echo "My ninth argument is $9"`|
+|$@|All of current command's parameters (preserving whitespace and quoting)|`echo "My arguments are $@"`|
+|$*|All of current command's parameters (not preserving whitespace and quoting)|`echo "My arguments are $*"`|
+|-eq|Numeric Equality|`if [ "$foo" -eq "9" ]`|
+|-ne|Numeric Inquality|`if [ "$foo" -ne "9" ]`|
+|-lt|Less Than|`if [ "$foo" -lt "9" ]`|
+|-le|Less Than or Equal|`if [ "$foo" -le "9" ]`|
+|-gt|Greater Than|`if [ "$foo" -gt "9" ]`|
+|-ge|Greater Than or Equal|`if [ "$foo" -ge "9" ]`|
+|-z|String is zero length|`if [ -z "$foo" ]`|
+|-n|String is not zero length|`if [ -n "$foo" ]`|
+|-nt|Newer Than|`if [ "$file1" -nt "$file2" ]`|
+|-d|Is a Directory|`if [ -d /bin ]`|
+|-f|Is a File|`if [ -f /bin/ls ]`|
+|-r|Is a readable file|`if [ -r /bin/ls ]`|
+|-w|Is a writable file|`if [ -w /bin/ls ]`|
+|-x|Is an executable file|`if [ -x /bin/ls ]`|
+|( ... )|Function definition|`function myfunc() { echo hello`}|
