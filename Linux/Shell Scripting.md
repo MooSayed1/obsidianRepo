@@ -169,18 +169,19 @@ All parameters are hello world earth
 # [Escape characters](https://www.shellscript.sh/escape.html) 
 
 # if condition
->[!info]
->- `-eq`: equal to
->- `-ne`: not equal to
-- `-lt`: less than
-- `-le`: less than or equal to
-- `-gt`: greater than
-- `-ge`: greater than or equal to
-- `-z`: string is empty
-- `-n`: string is not empty
-- `!`: logical NOT
-- `&&`: logical AND
-- `||`: logical OR
+>[!info] conditons
+>- `eq`: equal to
+>- `ne`: not equal to
+>- `lt`: less than
+>- `le`: less than or equal to
+>- `gt`: greater than
+>- `ge`: greater than or equal to
+>- `z`: string is empty
+-> `n`: string is not empty
+>- `!`: logical NOT
+>- `&&`: logical AND
+>- `||`: logical OR
+
 ```shell
 $ echo * 
 # this will print all files in directory
