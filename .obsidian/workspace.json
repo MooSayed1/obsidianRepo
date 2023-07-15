@@ -163,6 +163,8 @@
   },
   "active": "da8589676db5020f",
   "lastOpenFiles": [
+    "Linux/myScripts/createBashFile.sh",
+    "Linux/myScripts/crateBashFile.sh",
     "test.cpp",
     "Formatting/Callout.md",
     "Linux/Shell Scripting.md",
@@ -174,8 +176,6 @@
     "Linux/myScripts/for.sh",
     "Linux/myScripts/file.txt",
     "Linux/myScripts/test.txt",
-    "Linux/myScripts/var4.sh",
-    "Linux/myScripts/var3.sh",
     "Formatting/Code block.md",
     "Formatting/Comment.md",
     "Formatting/Diagram.md",

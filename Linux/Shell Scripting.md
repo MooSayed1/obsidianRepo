@@ -183,6 +183,13 @@ All parameters are hello world earth
 >- `||`: logical OR
 
 ```shell
+-e --> file exist
+-z --> string empty
+-x --> file have rights of exectue
+if[ -e NameOfFile]
+```
+
+```shell
 $ echo * 
 # this will print all files in directory
 ```
