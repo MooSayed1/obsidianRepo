@@ -48,7 +48,7 @@ By Mohamed Elsayed Rabie
 - **`grep ri "word" Desktop/`**: Searches for the word "word" in files under the Desktop directory, ignoring case sensitivity.
 - **`htop`** & **`top`**: Commands to check the usage of RAM and CPU processes. **`htop`** provides a more advanced and interactive interface.
 
-**Wildcards:**
+#Wildcards
 
 - Wildcards are special characters used in Linux commands to represent patterns of filenames or paths.
 - Here are some common wildcards:
@@ -61,7 +61,7 @@ By Mohamed Elsayed Rabie
     - **`touch abc{1..10}xyz`**: Creates 10 files with names "abc1xyz" to "abc10xyz".
 - For a more detailed explanation of wildcards, you can watch this video: **[Wildcards Explanation](https://youtu.be/z7ZAL0n64KU)**.
 
-**File Permissions:**
+#FilePermission  
 
 - File permissions determine the access rights for users (u), groups (g), and others (o) to read (r), write (w), and execute (x) a file.
     
@@ -96,7 +96,7 @@ By Mohamed Elsayed Rabie
         - **`chmod 644 file`**: Assigns read and write permissions to the owner (6), and read-only permissions to the group (4) and others (4) for the file.
     
     Remember, the first digit represents the owner's permissions, the second digit represents the group's permissions, and the third digit represents the permissions for others.
-    
+
     - SUMMARY
     
     Here is a summary of various commands and operations in Linux:
@@ -153,6 +153,8 @@ By Mohamed Elsayed Rabie
     - **`wget`**: Download files from the web.
     - **`curl`**: Transfer data from or to a server.
     -  **<span style="color:#DA1416; background-color:1. #238F3F">cd</span>**  change directory
-    - 
+
+
 # To Made Scripts 
-[[Shell Scripting]]
+
+![[Shell Scripting]]
