@@ -61,13 +61,13 @@ echo Hello * World
 echo Hello      World
 echo "Hello" World
 echo Hello "     " World
-echo "Hello \"*\" World"
-echo `hello` world
+echo "Hello "*" World"
 echo 'hello' world
 ```
 
 
 >[!hint]- Answers
+```md
 Hello      World
 Hello World
 Hello * World
@@ -77,6 +77,13 @@ Hello World
 Hello       World
 Hello * World
 hello world
+```
 
 
 this link to myScripts in git hub [myScripts](https://github.com/Moosayed1/obsidianRepo/tree/main/Linux/myScripts)
+
+
+# 2- Variabels
+
+>[!Note]
+>that there must be no spaces around the "`=`" sign: `VAR=value` works; `VAR = value` doesn't work.
