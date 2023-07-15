@@ -63,3 +63,4 @@ echo "Hello \"*\" World"
 echo `hello` world
 echo 'hello' world
 ```
+this link to myScripts in git hub [myScripts](https://github.com/Moosayed1/obsidianRepo/tree/main/Linux/myScripts)
