@@ -163,3 +163,57 @@ My first parameter is hello
 My second parameter is world
 All parameters are hello world earth
 ```
+
+# Read about 
+#  [Wildcards](https://www.shellscript.sh/wildcards.html) 
+# [Escape characters](https://www.shellscript.sh/escape.html) 
+
+# if condition
+>[!info]
+>- `-eq`: equal to
+>- `-ne`: not equal to
+- `-lt`: less than
+- `-le`: less than or equal to
+- `-gt`: greater than
+- `-ge`: greater than or equal to
+- `-z`: string is empty
+- `-n`: string is not empty
+- `!`: logical NOT
+- `&&`: logical AND
+- `||`: logical OR
+```shell
+$ echo * 
+# this will print all files in directory
+```
+syntax of if ..then..else is : 
+```shell
+if [ ... ]
+then
+  # if-code
+else
+  # else-code
+fi
+
+```
+
+```shell
+Note that `fi` is `if` backwards! This is used again later with [case](https://www.shellscript.sh/case.html) and `esac`.  
+Also, be aware of the syntax - the "`if [ ... ]`" and the "`then`" commands must be on different lines. Alternatively, the semicolon "`;`" can separate them:
+
+if [ ... ]; then
+  # do something
+fi
+```
+
+```shell
+You can also use the `elif`, like this:
+
+if  [ something ]; then
+ echo "Something"
+ elif [ something_else ]; then
+   echo "Something else"
+ else
+   echo "None of the above"
+fi
+```
+
