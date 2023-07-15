@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0d6812be8fe06e8b",
@@ -164,6 +163,7 @@
   },
   "active": "da8589676db5020f",
   "lastOpenFiles": [
+    "Linux/myScripts/var3.sh",
     "Linux/myScripts/myVar2.sh",
     "Linux/myScripts/var.sh",
     "Formatting/Callout.md",
@@ -199,7 +199,6 @@
     "Recording 20230712210317.webm",
     "Recording 20230712210222.webm",
     "Recording 20230712210235.webm",
-    "Recording 20230712210234.webm",
     "photos/Pasted image 20230712100209.png",
     "Pasted image 20230712100209.png"
   ]

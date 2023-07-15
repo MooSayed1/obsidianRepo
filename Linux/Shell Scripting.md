@@ -83,7 +83,83 @@ hello world
 this link to myScripts in git hub [myScripts](https://github.com/Moosayed1/obsidianRepo/tree/main/Linux/myScripts)
 
 
-# 2- Variabels
-
+# 2- Variabels 
 >[!Note]
->that there must be no spaces around the "`=`" sign: `VAR=value` works; `VAR = value` doesn't work.
+>if i write $ before command ,this is in terminal 
+
+you can read the toutoral to variable [Variabels](https://www.shellscript.sh/variables1.html)
+and this is summary to it 
+i suppose to read totorual of this 
+>[!Note]
+>that there must be no spaces around the "`=`" sign: `VAR=value` works; 
+>`VAR = value` doesn't work.
+
+```shell
+#!/bin/sh  
+echo "What is your name?"  
+read USER_NAMEecho "Hello $USER_NAME"  
+echo "I will create you a file called $USER_NAME_file"  
+touch $USER_NAME_file
+```
+
+```md
+Think about what result you would expect. For example, if you enter "steve" as your USER_NAME, should the script create `steve_file`?  
+Actually, no. This will cause an error unless there is a variable called `USER_NAME_file`. The shell does not know where the variable ends and the rest starts. How can we define this?  
+The answer is, that we enclose the variable itself in _curly brackets_:
+```
+
+```shell
+#!/bin/sh  
+echo "What is your name?"  
+read USER_NAMEecho "Hello $USER_NAME"  
+echo "I will create you a file called ${USER_NAME}_file"  
+touch "${USER_NAME}_file"
+```
+
+```shell
+The shell now knows that we are referring to the variable `USER_NAME` and that we want it suffixed with "_file". This can be the downfall of many a new shell script programmer, as the source of the problem can be difficult to track down.
+
+Also note the quotes around `"${USER_NAME}_file"` - if the user entered "Steve Parker" (note the space) then without the quotes, the arguments passed to `touch` would be `Steve` and `Parker_file` - that is, we'd effectively be saying `touch Steve Parker_file`, which is two files to be `touch`ed, not one. The quotes avoid this. 
+```
+
+```shell
+The first set of variables we will look at are `$0 .. $9` and `$#`.  
+The variable `$0` is the _basename_ of the program as it was called.  
+`$1 .. $9` are the first 9 additional parameters the script was called with.  
+The variable `$@` is all parameters `$1 .. whatever`. The variable `$*`, is similar, but does not preserve any whitespace, and quoting, so "File with spaces" becomes "File" "with" "spaces". This is similar to the `echo` stuff we looked at in [A First Script](https://www.shellscript.sh/first.html). As a general rule, use `$@` and avoid `$*`.  
+`$#` is the number of parameters the script was called with.
+```
+
+```shell
+#!/bin/sh
+echo "I was called with $# parameters"
+echo "My name is $0"
+echo "My first parameter is $1"
+echo "My second parameter is $2"
+echo "All parameters are $@"
+```
+
+```txt
+first case
+
+$ /home/mohamed/var3.sh
+# Ouput
+I was called with 0 parameters
+My name is /home/mohamed/var3.sh
+My first parameter is
+My second parameter is    
+All parameters are 
+$
+```
+
+```txt
+second case
+
+$ ./var3.sh hello world earth
+# Ouput
+I was called with 3 parameters
+My name is ./var3.sh
+My first parameter is hello
+My second parameter is world
+All parameters are hello world earth
+```
