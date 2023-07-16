@@ -155,7 +155,8 @@ By Mohamed Elsayed Rabie
     -  **<span style="color:#DA1416; background-color:1. #238F3F">cd</span>**  change directory
 
 
+
 # To Made Scripts 
 
-![[Shell Scripting]] 
+[[Shell Scripting]] 
 

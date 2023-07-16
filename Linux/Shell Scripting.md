@@ -139,7 +139,7 @@ echo "My second parameter is $2"
 echo "All parameters are $@"
 ```
 
-```txt
+```shell
 first case
 
 $ /home/mohamed/var3.sh
@@ -152,7 +152,7 @@ All parameters are
 $
 ```
 
-```txt
+```shell
 second case
 
 $ ./var3.sh hello world earth
@@ -177,7 +177,7 @@ All parameters are hello world earth
 >- `gt`: greater than
 >- `ge`: greater than or equal to
 >- `z`: string is empty
--> `n`: string is not empty
+>- `n`: string is not empty
 >- `!`: logical NOT
 >- `&&`: logical AND
 >- `||`: logical OR
@@ -377,6 +377,48 @@ done
 ```
 
 # Functions 
+```shell
+function print_message {
+  echo "Hello, world!"
+}
+
+print_message # call function
+```
+
+```shell
+function add_numbers {    
+  local sum=$(($1 + $2))
+  echo $sum
+}
+
+result=$(add_numbers 5 10) # Take 2 argument and get sum of them
+echo "The result is: $result"
+```
+
+```shell
+function check_number {
+  if [[ $1 -gt 10 ]]
+  then
+    echo "The number is greater than 10"
+  else
+    echo "The number is less than or equal to 10"
+  fi
+}
+
+check_number 15
+check_number 5
+```
+
+```shell
+function print_numbers {
+  for (( i=1; i<=$1; i++ ))
+  do
+    echo $i
+  done
+}
+
+print_numbers 5
+```
 
 # Quick Reference
 look at this in a read mood : )

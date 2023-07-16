@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "Linux/Shell Scripting.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Linux/Shell Scripting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Linux/Shell Scripting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Linux/Shell Scripting.md"
               }
             }
           }
@@ -176,11 +176,12 @@
   },
   "active": "d7d859818ebd916a",
   "lastOpenFiles": [
+    "Linux/Linux Command.md",
+    "README.md",
     "Linux/Shell Scripting.md",
     "Linux/myScripts/automationGitHubPushV2.sh",
     "Linux/myScripts/automationGitHub.sh",
     "Linux/myScripts/untilLoop.sh",
-    "Linux/Linux Command.md",
     "Linux/myScripts/var4.sh",
     "Linux/myScripts/NewFile.sh",
     "Linux/myScripts/bash.sh",
