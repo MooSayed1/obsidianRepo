@@ -2,7 +2,7 @@
 
 case $1 in
     nvchad)
-        ln -sf ~/nvim-configs/nvchad/init.vim ~/.config/nvim/init.vim
+        ln -sf ~/.config/NvChad/init.vim ~/.config/nvim/init.vim   # This Code Need To Update
         echo "Switched to nvchad configuration"
         ;;
     astro)
