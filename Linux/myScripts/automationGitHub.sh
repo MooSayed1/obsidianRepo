@@ -10,7 +10,7 @@ do
   git add .
 
   # Commit the changes with the message "Updated"
-  git commit -m "Updated"
+  git commit -m "Updated Automaticly By Bash"
 
   # Push the changes to the remote repository
   git push
