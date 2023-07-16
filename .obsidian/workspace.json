@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Shell Scripting.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Shell Scripting.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Shell Scripting.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Shell Scripting.md"
+                "file": "README.md"
               }
             }
           }
@@ -176,10 +176,11 @@
   },
   "active": "d7d859818ebd916a",
   "lastOpenFiles": [
+    "Linux/Shell Scripting.md",
+    "Linux/myScripts/automationGitHubPushV2.sh",
     "Linux/myScripts/automationGitHub.sh",
     "Linux/myScripts/untilLoop.sh",
     "Linux/Linux Command.md",
-    "Linux/Shell Scripting.md",
     "Linux/myScripts/var4.sh",
     "Linux/myScripts/NewFile.sh",
     "Linux/myScripts/bash.sh",
@@ -188,8 +189,6 @@
     "Linux/myScripts/crateBashFile.sh",
     "test.cpp",
     "Formatting/Callout.md",
-    "Linux/myScripts/ifConditions.sh",
-    "Linux/myScripts/while2.sh",
     "Formatting/Code block.md",
     "Formatting/Comment.md",
     "Formatting/Diagram.md",

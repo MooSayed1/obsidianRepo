@@ -413,3 +413,69 @@ look at this in a read mood : )
 |-w|Is a writable file|`if [ -w /bin/ls ]`|
 |-x|Is an executable file|`if [ -x /bin/ls ]`|
 |( ... )|Function definition|`function myfunc() { echo hello`}|
+
+# My efficient scripts 
+
+1- Bash script to automation push to my repo every 1 hour 
+```shell 
+#!/bin/bash
+
+# Change to the local directory where the Git repository is located
+cd /home/mohamed/Desktop/obsidianRepo/
+
+# Loop forever
+while true
+do
+  # Add all changes to the Git index
+  git add .
+
+  # Commit the changes with the message "Updated"
+  git commit -m "Updated"
+
+  # Push the changes to the remote repository
+  git push
+
+  # Wait for one hour before running the loop again
+  sleep 3600
+done
+```
+
+this code is version 2 of the last one it's still being modified 
+
+```shell 
+# Function to start the GitHub auto-push script
+start_obsidian_script() {
+  cd /home/mohamed/Desktop/obsidianRepo/
+  while true
+  do
+    git add .
+
+    git commit -m "Updated"
+
+    git push
+
+    sleep 3600
+  done &
+}
+
+# Function to stop the GitHub auto-push script
+stop_obsidian_script() {
+  # Get the process ID of the GitHub auto-push script
+  script_pid=$(pgrep -f "automationGitHubPush.sh")
+
+  # Kill the script process
+  if [ -n "$script_pid" ]
+  then
+    kill "$script_pid"
+  fi
+}
+
+# Start the GitHub auto-push script when Obsidian is opened
+if pgrep obsidian > /dev/null
+then
+  start_obsidian_script
+fi
+
+# Stop the GitHub auto-push script when Obsidian is closed
+trap stop_obsidian_script EXIT
+```

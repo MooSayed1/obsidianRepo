@@ -1,1 +1,3 @@
 # obsidianRepo
+
+##  Testing Bash Script 
