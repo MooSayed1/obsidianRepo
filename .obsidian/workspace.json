@@ -176,6 +176,7 @@
   },
   "active": "d7d859818ebd916a",
   "lastOpenFiles": [
+    "Linux/myScripts/nvim-switch.sh",
     "Linux/Linux Command.md",
     "README.md",
     "Linux/Shell Scripting.md",
@@ -211,7 +212,6 @@
     "Algo Book/2.3 Designing algorithms.md",
     "Algo Book/3.3 Standard notations and common functions.md",
     "Algo Book/3.2 Asymptotic notation formal definitions.md",
-    "Algo Book/3.1 O-notation, Ω-notation, and Θ-notation.md",
     "photos/Pasted image 20230712100209.png",
     "Pasted image 20230712100209.png"
   ]
