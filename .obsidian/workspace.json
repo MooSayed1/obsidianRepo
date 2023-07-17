@@ -176,6 +176,7 @@
   },
   "active": "d7d859818ebd916a",
   "lastOpenFiles": [
+    "Linux/myScripts/collectingScript.sh",
     "Linux/myScripts/nvim-switch.sh",
     "Linux/Linux Command.md",
     "README.md",
@@ -189,7 +190,6 @@
     "Linux/myScripts/test.sh",
     "Linux/myScripts/createBashFile.sh",
     "Linux/myScripts/crateBashFile.sh",
-    "test.cpp",
     "Formatting/Callout.md",
     "Formatting/Code block.md",
     "Formatting/Comment.md",
