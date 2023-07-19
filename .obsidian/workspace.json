@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Shell Scripting.md",
+                "file": "myVault/Git Hub Command.md",
                 "mode": "preview",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Shell Scripting.md",
+                "file": "myVault/Git Hub Command.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Shell Scripting.md",
+                "file": "myVault/Git Hub Command.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Shell Scripting.md"
+                "file": "myVault/Git Hub Command.md"
               }
             }
           }
@@ -176,11 +176,11 @@
   },
   "active": "d7d859818ebd916a",
   "lastOpenFiles": [
+    "Linux/Shell Scripting.md",
     "Linux/myScripts/collectingScript.sh",
     "Linux/myScripts/nvim-switch.sh",
     "Linux/Linux Command.md",
     "README.md",
-    "Linux/Shell Scripting.md",
     "Linux/myScripts/automationGitHubPushV2.sh",
     "Linux/myScripts/automationGitHub.sh",
     "Linux/myScripts/untilLoop.sh",
@@ -189,7 +189,6 @@
     "Linux/myScripts/bash.sh",
     "Linux/myScripts/test.sh",
     "Linux/myScripts/createBashFile.sh",
-    "Linux/myScripts/crateBashFile.sh",
     "Formatting/Callout.md",
     "Formatting/Code block.md",
     "Formatting/Comment.md",
