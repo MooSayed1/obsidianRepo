@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "myVault/Git Hub Command.md",
-                "mode": "preview",
+                "file": "myVault/New important Notes.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "myVault/Git Hub Command.md",
+                "file": "myVault/New important Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "myVault/Git Hub Command.md",
+                "file": "myVault/New important Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "myVault/Git Hub Command.md"
+                "file": "myVault/New important Notes.md"
               }
             }
           }
@@ -176,6 +176,10 @@
   },
   "active": "d7d859818ebd916a",
   "lastOpenFiles": [
+    "myVault/Notes Data Structure.md",
+    "myVault/Recursion.md",
+    "myVault/Plugins make Obsidian special for you.md",
+    "myVault/Git Hub Command.md",
     "Linux/Shell Scripting.md",
     "Linux/myScripts/collectingScript.sh",
     "Linux/myScripts/nvim-switch.sh",
@@ -200,7 +204,6 @@
     "myVault/Vault is just a local folder.md",
     "myVault/Start Here.md",
     "Linux/Nvim and configration of it.md",
-    "myVault/Recursion.md",
     "Formatting/Links.md",
     "Formatting/Table.md",
     "Formatting/Strikethrough.md",
@@ -209,8 +212,6 @@
     "Formatting/Embeds.md",
     "Formatting/Internal link.md",
     "Algo Book/2.3 Designing algorithms.md",
-    "Algo Book/3.3 Standard notations and common functions.md",
-    "Algo Book/3.2 Asymptotic notation formal definitions.md",
     "photos/Pasted image 20230712100209.png",
     "Pasted image 20230712100209.png"
   ]
