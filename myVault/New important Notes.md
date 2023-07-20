@@ -16,3 +16,7 @@ for (int &x : arr) {
 std::cout << x << std::endl;
 }
 ```
+
+size of int is => 2e9 
+long long => 9e18 
+one second eqal => 1e8 
