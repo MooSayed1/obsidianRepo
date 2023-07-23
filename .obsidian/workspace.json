@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "myVault/New important Notes.md",
+                "file": "Linux/Shell Scripting.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "myVault/New important Notes.md",
+                "file": "Linux/Shell Scripting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "myVault/New important Notes.md",
+                "file": "Linux/Shell Scripting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "myVault/New important Notes.md"
+                "file": "Linux/Shell Scripting.md"
               }
             }
           }
@@ -176,6 +176,7 @@
   },
   "active": "d7d859818ebd916a",
   "lastOpenFiles": [
+    "myVault/New important Notes.md",
     "myVault/Notes Data Structure.md",
     "myVault/Recursion.md",
     "myVault/Plugins make Obsidian special for you.md",
@@ -211,7 +212,6 @@
     "Formatting/Lists.md",
     "Formatting/Embeds.md",
     "Formatting/Internal link.md",
-    "Algo Book/2.3 Designing algorithms.md",
     "photos/Pasted image 20230712100209.png",
     "Pasted image 20230712100209.png"
   ]
