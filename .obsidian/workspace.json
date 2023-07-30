@@ -40,7 +40,11 @@
               "type": "markdown",
               "state": {
                 "file": "myVault/Git Hub Command.md",
+<<<<<<< HEAD
                 "mode": "source",
+=======
+                "mode": "preview",
+>>>>>>> refs/remotes/origin/main
                 "source": false
               }
             }
@@ -176,13 +180,22 @@
   },
   "active": "d7d859818ebd916a",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "myVault/New important Notes.md",
     "Untitled.canvas",
+=======
+    "Linux/Shell Scripting.md",
+    "myVault/New important Notes.md",
+>>>>>>> refs/remotes/origin/main
     "myVault/Notes Data Structure.md",
     "myVault/Git Hub Command.md",
     "myVault/Recursion.md",
     "myVault/Plugins make Obsidian special for you.md",
+<<<<<<< HEAD
     "Linux/Shell Scripting.md",
+=======
+    "myVault/Git Hub Command.md",
+>>>>>>> refs/remotes/origin/main
     "Linux/myScripts/collectingScript.sh",
     "Linux/myScripts/nvim-switch.sh",
     "Linux/Linux Command.md",
@@ -212,6 +225,10 @@
     "Formatting/Math.md",
     "Formatting/Lists.md",
     "Formatting/Embeds.md",
+<<<<<<< HEAD
+=======
+    "Formatting/Internal link.md",
+>>>>>>> refs/remotes/origin/main
     "photos/Pasted image 20230712100209.png",
     "Pasted image 20230712100209.png"
   ]
