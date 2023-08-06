@@ -87,6 +87,7 @@ Note 4 —> Array only pass as address like this —> void add(int A[]) address 
 7- we say previous That Array only pass by address but there is trick you can pass array by value when you made array on struct and pass this struct by value :
 
 Syntax-wise, strictly speaking you _cannot_ pass an array by value in C.
+#array_as_ParameterByAddress
 
 ```cpp
 void func (int* x); /* this is a pointer */
@@ -98,6 +99,7 @@ void func (int x[10]); /* this is a pointer */
 ```
 
 _However_, for the record there is a dirty trick in C that does allow you to pass an array by value in C. Don't try this at home! Because despite this trick, there is still never a reason to pass an array by value.
+#array_passByValue
 
 ```cpp
 typedef struct Array_by_val
@@ -122,5 +124,19 @@ On the other hand, [merge sort](https://www.geeksforgeeks.org/merge-sort/) has a
 
 Therefore, depending on the size of the input, one algorithm may be faster than the other. For small input sizes, insertion sort may be faster, while for large input sizes, merge sort may be faster. However, in practice, other factors such as the specific implementation and hardware can also affect the actual performance of these algorithms.
 
-[[Recursion]]
+![[Recursion]]
+
+>[!Note] why c++ is zero based index
+> This The formula of get address of index
+>`address_of_element = address_of_array + (element_index * size_of_each_element)`
+>Where:
+>- `address_of_array`: The memory address of the first element of the array.
+>- `element_index`: The index of the element you want to access (zero-based index).
+>- `size_of_each_element`: The size of each element in the array in bytes. This is typically obtained using the `sizeof` operator.
+>For example, if you have an integer array `int arr[5];` and you want to find the address of the third element (index 2), you can use the formula:
+>`address_of_element = &arr[0] + (2 * sizeof(int));`
+>من الاخر لي بيبدا من الصفر لان انا عندس المعاله اصلا المروض تكون 
+>مكان اول عنصر + (الاندكس بتاع الارااي ناقص واحد مضروب) ف حجم العنصر الواحد
+>فانا بدل ما كل مره افضل اطرح واحد وده هيزود الوقت فهما خلوها تبدا من الصفر بحيث اوفر عمليه وازود سرعه ال compile time
+
 
