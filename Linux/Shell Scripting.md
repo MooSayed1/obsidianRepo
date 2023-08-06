@@ -521,3 +521,79 @@ fi
 # Stop the GitHub auto-push script when Obsidian is closed
 trap stop_obsidian_script EXIT
 ```
+
+To set up a script that randomly sets the desktop background on ArcoLinux with DWM window manager and runs at startup, you can follow these steps:
+
+1. Open a terminal window and create a new Bash script file using your preferred text editor. For example:
+
+Copy
+
+```
+nano random_bg.sh
+```
+
+2. Copy and paste the following code into the script file:
+
+bash
+
+Copy
+
+```sh
+#!/bin/bash
+
+# Set the directory containing the images
+IMAGE_DIR="/path/to/image/directory"
+
+# Get a list of the image files in the directory
+IMAGE_FILES=$(find "$IMAGE_DIR" -type f -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif")
+
+# Choose a random image file from the list
+RANDOM_IMAGE=$(echo "$IMAGE_FILES" | shuf -n 1)
+
+# Set the desktop background using feh
+feh --bg-fill "$RANDOM_IMAGE"
+```
+
+Replace `/path/to/image/directory` with the actual path to the directory containing your images.
+
+3. Save and close the script file.
+    
+4. Make the script file executable:
+    
+
+Copy
+
+```sh
+chmod +x random_bg.sh
+```
+
+5. Open the `.xinitrc` file in your home directory using your preferred text editor:
+
+Copy
+
+```sh
+nvim ~/.xinitrc
+```
+
+6. Add the following line to the end of the file:
+
+Copy
+
+```
+/path/to/random_bg.sh &
+```
+
+Replace `/path/to/random_bg.sh` with the actual path to the script file.
+
+7. Save and close the `.xinitrc` file.
+    
+8. Log out of your user session (or reboot the system).
+    
+9. At the login screen, select "Xfce4 Session" from the Session menu.
+    
+10. Enter your username and password to log in.
+    
+11. DWM should start automatically, and the random background script should run and set the desktop background to a random image from the specified directory.
+    
+
+That's it! You should now have a script that sets the desktop background randomly on ArcoLinux with DWM, and it should run automatically at startup.

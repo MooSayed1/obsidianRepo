@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Change to the local directory where the Git repository is located
-cd /home/mohamed/Desktop/obsidianRepo/
+cd ~/Desktop/obsidianRepo/
 
 # Loop forever
 while true

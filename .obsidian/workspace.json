@@ -58,7 +58,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -186,7 +186,7 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "0d3e5a6af5fa7702",
+  "active": "d7d859818ebd916a",
   "lastOpenFiles": [
     "myVault/problem solving notes.md",
     "myVault/Notes Data Structure.md",

@@ -126,6 +126,7 @@ Therefore, depending on the size of the input, one algorithm may be faster than 
 
 ![[Recursion]]
 
+
 >[!Note] why c++ is zero based index
 > This The formula of get address of index
 >`address_of_element = address_of_array + (element_index * size_of_each_element)`
@@ -135,8 +136,14 @@ Therefore, depending on the size of the input, one algorithm may be faster than 
 >- `size_of_each_element`: The size of each element in the array in bytes. This is typically obtained using the `sizeof` operator.
 >For example, if you have an integer array `int arr[5];` and you want to find the address of the third element (index 2), you can use the formula:
 >`address_of_element = &arr[0] + (2 * sizeof(int));`
->من الاخر لي بيبدا من الصفر لان انا عندس المعاله اصلا المروض تكون 
+>من الاخر لي بيبدا من الصفر لان انا عندي المعاله اصلا المفروض تكون 
 >مكان اول عنصر + (الاندكس بتاع الارااي ناقص واحد مضروب) ف حجم العنصر الواحد
 >فانا بدل ما كل مره افضل اطرح واحد وده هيزود الوقت فهما خلوها تبدا من الصفر بحيث اوفر عمليه وازود سرعه ال compile time
 
+
+
+
+
+
+ 
 
