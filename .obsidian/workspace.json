@@ -27,20 +27,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formatting/Callout.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7d859818ebd916a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "myVault/Notes Data Structure.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -61,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formatting/Footnote.md",
+                "file": "Formatting/Callout.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Formatting/Footnote.md",
+                "file": "myVault/Notes Data Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Formatting/Footnote.md",
+                "file": "myVault/Notes Data Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Formatting/Footnote.md"
+                "file": "myVault/Notes Data Structure.md"
               }
             }
           }
@@ -196,22 +184,37 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "dd01063c2e7c95ec",
+  "active": "9c6e1e5681bdc18e",
   "lastOpenFiles": [
-    "Formatting/Code block.md",
-    "Formatting/Blockquote.md",
-    "Linux/Shell Scripting.md",
-    "myVault/Recursion.md",
-    "myVault/Git Hub Command.md",
     "Formatting/Callout.md",
-    "myVault/New important Notes.md",
-    "Untitled.canvas",
     "myVault/Notes Data Structure.md",
-    "myVault/Plugins make Obsidian special for you.md",
+    "Formatting/Diagram.md",
+    "Formatting/Task.md",
+    "Formatting/Table.md",
+    "Formatting/Strikethrough.md",
+    "Formatting/Math.md",
+    "Formatting/Lists.md",
+    "Formatting/Links.md",
+    "Formatting/Internal link.md",
+    "Formatting/Inline code.md",
+    "Formatting/Images.md",
+    "Formatting/Horizontal divider.md",
+    "Formatting/Highlighting.md",
+    "Formatting/Heading.md",
+    "Formatting/Format your notes.md",
+    "Formatting/Footnote.md",
+    "Formatting/Embeds.md",
+    "Formatting/Emphasis.md",
+    "Algo Book/3.1 O-notation, Ω-notation, and Θ-notation.md",
+    "Algo Book/2.3 Designing algorithms.md",
+    "Algo Book/2.2 Analyzing algorithms.md",
+    "Algo Book/2.1 Insertion sort.md",
+    "Algo Book/1.2 Algorithms as a technology.md",
+    "Algo Book/1.1 Algorithms.md",
+    "Formatting/Code block.md",
+    "Untitled.canvas",
     "Linux/myScripts/collectingScript.sh",
     "Linux/myScripts/nvim-switch.sh",
-    "Linux/Linux Command.md",
-    "README.md",
     "Linux/myScripts/automationGitHubPushV2.sh",
     "Linux/myScripts/automationGitHub.sh",
     "Linux/myScripts/untilLoop.sh",
@@ -220,20 +223,6 @@
     "Linux/myScripts/bash.sh",
     "Linux/myScripts/test.sh",
     "Linux/myScripts/createBashFile.sh",
-    "Formatting/Comment.md",
-    "Formatting/Diagram.md",
-    "Formatting/Footnote.md",
-    "Algo Book/Table of Contents.md",
-    "2023-07-15.md",
-    "myVault/Vault is just a local folder.md",
-    "myVault/Start Here.md",
-    "Linux/Nvim and configration of it.md",
-    "Formatting/Links.md",
-    "Formatting/Table.md",
-    "Formatting/Strikethrough.md",
-    "Formatting/Math.md",
-    "Formatting/Lists.md",
-    "Formatting/Embeds.md",
     "photos/Pasted image 20230712100209.png",
     "Pasted image 20230712100209.png"
   ]

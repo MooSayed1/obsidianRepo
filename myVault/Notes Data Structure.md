@@ -122,5 +122,20 @@ On the other hand, [merge sort](https://www.geeksforgeeks.org/merge-sort/) has a
 
 Therefore, depending on the size of the input, one algorithm may be faster than the other. For small input sizes, insertion sort may be faster, while for large input sizes, merge sort may be faster. However, in practice, other factors such as the specific implementation and hardware can also affect the actual performance of these algorithms.
 
-[[Recursion]]
+![[Recursion]]
+
+
+
+>[!Note] why c++ is based zero index
+>why c++ 0 based --> معني ده ان الاراي بتبدا من index زيرو
+>طب لي 
+>انا المفروض لو عندي عنون مثلا 200 وده الاندكس الاول 
+>    فلو انا عايز الاندكس التالت فهتكون المعادله بتاعه هو اني اجمع عنوان الاول + (الاندكس -1) مضروب ف حجم الواحد بالشكل ده
+ `array_address + (index * element_size)`.
+  من الاخر علشان يقلل عدد العمليات بدل ما كل مره يطرح 1 فهو قلل الاندكس من 1 ل 0 بدل ما ف كل مره يطرح واحد 
+ فبالتالي الكومبايلر هيبقي اسرع 
+
+
+ 
+
 
