@@ -10,7 +10,7 @@ struct Array
 void insert(Array *arr, int index);
 void del();
 void append(Array *arr);
-void expand(); // this function to expand size of array * 2 to capacty
+void expand(Array *arr); // this function to expand size of array * 2 to capacty
 void display(Array arr);
 
 int main()
