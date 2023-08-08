@@ -8,7 +8,7 @@ struct Array
 };
 
 void insert(Array *arr, int index);
-void del();
+void del(Array *arr, int index);
 void append(Array *arr);
 void expand(Array *arr); // this function to expand size of array * 2 to capacty
 void display(Array arr);
@@ -17,6 +17,7 @@ int main()
 {
 
     Array arr;
+    int index = 0;
     cout << "Enter Size Of The Array: ";
     cin >> arr.size;
     arr.A = new int[arr.size];
@@ -31,15 +32,31 @@ int main()
     append(&arr);
     cout << arr.lenght << endl;
     display(arr);
-
+    cout << "Insert: " << endl;
     insert(&arr, 2);
+    display(arr);
+    cout << "Enter Index You Wanaa delete: ";
+    cin >> index;
+    del(&arr, index);
     display(arr);
     return 0;
 }
 void append(Array *arr)
 {
-    arr->lenght++;
-    cin >> arr->A[arr->lenght - 1];
+v:
+    try
+    {
+        if (arr->lenght < 0 && arr->lenght >= arr->size)
+            throw "Expand capcity";
+        arr->lenght++;
+        cin >> arr->A[arr->lenght - 1];
+    }
+    catch (char *ch)
+    {
+        cout << ch << endl;
+        expand(arr);
+        goto v;
+    }
 }
 void display(Array arr)
 {
@@ -48,17 +65,18 @@ void display(Array arr)
 }
 void insert(Array *arr, int index)
 {
-    p:
-    if(arr->lenght<arr->size){
-    cout << "Enter Number You Wanaa insert: ";
-    int x;
-    cin >> x;
-    for (int i = arr->lenght; i > index; i--)
+p:
+    if (arr->lenght < arr->size)
     {
-        arr->A[i] = arr->A[i - 1];
-    }
-    arr->A[index ] = x;
-    arr->lenght++;
+        cout << "Enter Number You Wanaa insert: ";
+        int x;
+        cin >> x;
+        for (int i = arr->lenght; i > index; i--)
+        {
+            arr->A[i] = arr->A[i - 1];
+        }
+        arr->A[index] = x;
+        arr->lenght++;
     }
     else
     {
@@ -66,9 +84,13 @@ void insert(Array *arr, int index)
         goto p;
     }
 }
-void del()
+void del(Array *arr, int index)
 {
-
+    for (int i = index; i < arr->lenght - 1; i++)
+    {
+        arr->A[i] = arr->A[i + 1];
+    }
+    arr->lenght--;
 }
 void expand(Array *arr)
 {
