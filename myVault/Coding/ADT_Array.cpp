@@ -53,11 +53,11 @@ void insert(Array *arr, int index)
     cout << "Enter Number You Wanaa insert: ";
     int x;
     cin >> x;
-    for (int i = arr->lenght; i >= index; i--)
+    for (int i = arr->lenght; i > index; i--)
     {
         arr->A[i] = arr->A[i - 1];
     }
-    arr->A[index - 1] = x;
+    arr->A[index ] = x;
     arr->lenght++;
     }
     else
@@ -65,6 +65,10 @@ void insert(Array *arr, int index)
         expand(arr);
         goto p;
     }
+}
+void del()
+{
+
 }
 void expand(Array *arr)
 {
