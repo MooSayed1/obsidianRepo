@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "myVault/problem solving notes.md",
+                "file": "myVault/Notes Data Structure.md",
                 "mode": "source",
                 "source": false
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "myVault/problem solving notes.md",
+                "file": "myVault/Notes Data Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "myVault/problem solving notes.md",
+                "file": "myVault/Notes Data Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "myVault/problem solving notes.md"
+                "file": "myVault/Notes Data Structure.md"
               }
             }
           }
@@ -188,12 +188,12 @@
   },
   "active": "d7d859818ebd916a",
   "lastOpenFiles": [
+    "myVault/problem solving notes.md",
     "myVault/Notes Data Structure.md",
     "myVault/Coding/out",
     "myVault/Coding/ADT_Array.cpp",
     "myVault/Coding",
     "myVault/New folder",
-    "myVault/problem solving notes.md",
     "myVault/Git Hub Command.md",
     "myVault/Vault is just a local folder.md",
     "myVault/Start Here.md",

@@ -140,7 +140,42 @@ Therefore, depending on the size of the input, one algorithm may be faster than 
 >مكان اول عنصر + (الاندكس بتاع الارااي ناقص واحد مضروب) ف حجم العنصر الواحد
 >فانا بدل ما كل مره افضل اطرح واحد وده هيزود الوقت فهما خلوها تبدا من الصفر بحيث اوفر عمليه وازود سرعه ال compile time
 
+# Binary search
 
+```c++
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    int n; // number of elements in the array
+    cin >> n;
+
+    vector<int> arr(n);
+    for (int i = 0; i < n; ++i) {
+        cin >> arr[i];
+    }
+
+    vector<int> prefixSum(n);
+    prefixSum[0] = arr[0]; // The first element of prefix sum is the same as the first element of the array
+
+    // Calculate the prefix sum
+    for (int i = 1; i < n; ++i) {
+        prefixSum[i] = prefixSum[i - 1] + arr[i];
+    }
+
+    // Now you can answer range sum queries using the prefix sum
+    int left, right; // left and right indices of the subarray
+    cin >> left >> right;
+
+    int rangeSum = prefixSum[right] - (left > 0 ? prefixSum[left - 1] : 0);
+    cout << "Sum of elements in the range [" << left << ", " << right << "] is: " << rangeSum << endl;
+
+    return 0;
+}
+
+```
 
 
 
