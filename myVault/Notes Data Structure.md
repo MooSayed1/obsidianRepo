@@ -142,6 +142,69 @@ Therefore, depending on the size of the input, one algorithm may be faster than 
 
 # [Binary search]([Binary Search - Data Structure and Algorithm Tutorials - GeeksforGeeks](https://www.geeksforgeeks.org/binary-search/))
 
+```cpp 
+#include <iostream>
+
+#include <string>
+
+#include <vector>
+
+#include <algorithm>
+
+using namespace std;
+
+  
+
+int binary_search1(int *arr, int key, int size) {
+
+    int r = size - 1;
+
+    int l = 0;
+
+    while (l <= r) {
+
+        int mid = l + (r - l) / 2;
+
+        if (arr[mid] == key)
+
+            return mid;
+
+        else if (arr[mid] < key)
+
+            l = mid + 1;
+
+        else if (arr[mid] > key)
+
+            r = mid - 1;
+
+    }
+
+    return -1;
+
+}
+
+  
+
+int main() {
+
+    int target;
+
+    int A[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
+
+    int size = sizeof(A) / sizeof(int);
+
+    sort(A, A + size);
+
+    cout << "Enter Number You Wanna Search: ";
+
+    cin >> target;
+
+    cout << binary_search1(A, target, size);
+
+    return 0;
+
+}
+```
 
 
 
