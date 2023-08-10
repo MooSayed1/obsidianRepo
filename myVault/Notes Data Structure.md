@@ -140,7 +140,7 @@ Therefore, depending on the size of the input, one algorithm may be faster than 
 >مكان اول عنصر + (الاندكس بتاع الارااي ناقص واحد مضروب) ف حجم العنصر الواحد
 >فانا بدل ما كل مره افضل اطرح واحد وده هيزود الوقت فهما خلوها تبدا من الصفر بحيث اوفر عمليه وازود سرعه ال compile time
 
-# Binary search
+# [Binary search]([Binary Search - Data Structure and Algorithm Tutorials - GeeksforGeeks](https://www.geeksforgeeks.org/binary-search/))
 
 
 
