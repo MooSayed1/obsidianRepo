@@ -130,7 +130,7 @@ return 0;
 ```
 
 ```cpp 
-Nested Recursion
+//Nested Recursion
 #include <stdio.h>
 int fun(int n)
 {
@@ -149,7 +149,7 @@ return 0;
 # sum and factorial and power
 
 ```cpp
-Sum of N natural numbers
+//Sum of N natural numbers
 int sum(int n)
 {
 if(n==0)
@@ -172,7 +172,7 @@ return 0;
 ```
 
 ```cpp
-Factorial of N
+//Factorial of N
 int fact(int n)
 {
 if(n==0)
