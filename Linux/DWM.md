@@ -20,6 +20,7 @@ Encoding=UTF-8
 Name=DWM
 Comment=Dynamic Window Manger
 Exec=/usr/local/bin/dwm
+Icone=
 Type=Application
 
 ```
