@@ -138,11 +138,15 @@ int main()
 	scanf("%s", &a); // ahmed --> ااو ممكن تاخدهم بالشكل ده 
 
 	// ahmed mohamed ali 
+	int t;
 	cin >> t;
 	cin.ignore();
-	scanf("%[^\n]%*c", a); // with spaces  cin.igonre()
+	// هي نفسها لو خدتها بالشكل ده 
+	scanf("%[^\n]%*c", a); // with spaces cin.igonre()-->Take arr of char 
 	cout << a << endl;
-	string a1 = a;
+	string a1 = a; // هنا كدا احنا خدناها array of char علشان نستفيد من سرعتها 
+	//  بعد كدا حطيناها ف استرنج علشان هو افضل ف التعامل 
+	
 	string ans1 = "asd";
 	printf("%s\n", ans1.c_str());
 
