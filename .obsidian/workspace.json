@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Shell Scripting.md",
+                "file": "myVault/problem solving notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Shell Scripting.md",
+                "file": "myVault/problem solving notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Shell Scripting.md",
+                "file": "myVault/problem solving notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Shell Scripting.md"
+                "file": "myVault/problem solving notes.md"
               }
             }
           }
@@ -188,6 +188,7 @@
   },
   "active": "d45d4bb9fde9fca2",
   "lastOpenFiles": [
+    "Linux/Shell Scripting.md",
     "Linux/Nvim and configration of it.md",
     "Linux/Linux Command.md",
     "Linux/DWM.md",
@@ -196,7 +197,6 @@
     "myVault/problem solving notes.md",
     "myVault/Notes Data Structure.md",
     "myVault/Git Hub Command.md",
-    "Linux/Shell Scripting.md",
     "myVault/Coding/out",
     "myVault/Coding/ADT_Array.exe",
     "myVault/Coding/ADT_Array.cpp",

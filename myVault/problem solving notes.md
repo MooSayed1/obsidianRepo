@@ -95,6 +95,87 @@ int main() {
 
 ```
 
+# scanf , printf
+
+>[!Note] why use scanf and printf
+> why we need to use scanf and printf
+> because there  is more faster than cout and cin 
+> and you need to know there in language c not cpp
+> من الاخر هما اسرع فهتحتاجهم احيانا ف الكود هيسرعوه وهما تبع السي
+> تاني حاجه لازم تعرفها هي ان السي مفيهاش string وهتحتاج انك تعمل ارراي من ال char 
+> هتشوف ده خلال الكود هيشتغل ازاي 
+
+```cpp
+#define _CRT_SECURE_NO_WARNINGS //--> in visual studio code
+#include <stdio.h>
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int x, y, n; // --> %d for intger
+	scanf("%d%d%d", &n, &x, &y); // --> take variable by refrence 
+	long long t;   // --> lld for long long
+	scanf("%lld", &t);// this equal cin>>t; put more faster than it
+
+	double q;
+	scanf("%Lf", &q);
+
+
+	char s;
+	scanf("%c", &s);
+
+	printf("%Lf %d %lld %c\n", q, x, t, s);
+
+	//scan arrays
+	int m;
+	char a[10000];
+
+	gets(a); // --> دي بتاخد الاراي كامله كانها سترنج 
+	puts(a); // --> مش محتاج اقولك بقا اني دي هتطبعهم 
+
+
+	scanf("%s", &a); // ahmed --> ااو ممكن تاخدهم بالشكل ده 
+
+	// ahmed mohamed ali 
+	cin >> t;
+	cin.ignore();
+	scanf("%[^\n]%*c", a); // with spaces  cin.igonre()
+	cout << a << endl;
+	string a1 = a;
+	string ans1 = "asd";
+	printf("%s\n", ans1.c_str());
+
+
+	for (int i = 0; i < 5; i++){
+		scanf("%d", &a[i]); // x y 
+		scanf("%d", a + i);
+	}
+	for (int i = 0; i<5; i++)
+		printf("%d ", a[i]);
+
+	int array[5][5];
+	int i, k;
+	m = 5;
+	for (i = 0; i < m; i++){
+		for (k = 0; k < m; k++){
+			scanf("%d", &(array[i][k]));
+		}
+	}
+
+	for (i = 0; i < m; i++){
+		for (k = 0; k < m; k++){
+			printf("%d ", array[i][k]);
+		}
+		printf("\n");
+	}
+	// setprecison  and outbut double
+	double test = 4.4;
+	printf("%.9lf\n", test); // 4.40000000
+
+}
+```
 # Vector
+
 
 # Pair 
