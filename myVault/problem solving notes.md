@@ -1,4 +1,4 @@
-- iterators —> [**h](https://www.simplilearn.com/tutorials/cpp-tutorial/iterators-in-cpp)ere**
+- iterators —> [here](https://www.simplilearn.com/tutorials/cpp-tutorial/iterators-in-cpp)
 - Ranged loop
 - Ranged loop
 
