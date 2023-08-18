@@ -180,7 +180,216 @@ int main()
     //  بتكتب . وبعدها الرقم بتاع عدد الارقام بعد العلامه  بعديها بتكتب نوع 
 }
 ```
+
 # Vector
 
 
 # Pair 
+
+# cpp Algoritms
+
+ ```c++
+ #define _CRT_SECURE_NO_WARNINGS
+#include<bits/stdc++.h>
+using namespace std;
+typedef	long long ll;
+#define all(v) ((v).begin()),((v).end())
+#define PI(n) ((double)acos(n))
+int dx8[8] = { 1, -1, 0, 0, 1, 1, -1, -1 };
+int dy8[8] = { 0, 0, 1, -1, 1, -1, 1, -1 };
+void file(){
+#ifndef ONLINE_JUDGE
+	freopen("in.txt", "r", stdin);//freopen("in.txt", "r", stdin);
+#else 
+#endif
+}
+void fast(){
+	std::ios_base::sync_with_stdio(0); cin.tie(NULL);
+}
+int main()
+{
+	int a[5] = { 5, 2, 1, 3, 1 };
+	vector<int>v(5);
+	v = { 5, 2, 1, 3, 1 };
+	string x = "bcdea";
+	// array , vector , string
+	// sort ,reverse 
+	sort(a, a + 5); // sort ( name , name + size )
+	sort(a + 3, a + 5); // sort in range [3 , 5)
+	reverse(a, a + 5);
+
+	sort(v.begin(), v.end()); // sort  ( name.begin(),name.end())
+	sort(v.begin() + 3, v.begin() + 5); // sort in range [3,5)
+	reverse(v.begin(), v.end());
+
+	sort(x.begin(), x.end());
+	reverse(x.begin(), x.end());
+
+	//Count , binary_search , Lower_bound ,Upper_bound
+	
+	int  c = count(a, a + 5, 10); // count( name , name + size , value )
+	int f  = binary_search(a,a+5,10); // same
+
+	// get index of first value equal or greater than value given
+	// array must be sorted 
+	sort(a, a + 5);
+	sort(v.begin(), v.end()); // 1 2 3 4 4
+	int idx1 =  lower_bound(a, a + 5, 5) - a;
+	int idx2 = lower_bound(v.begin(),v.end(), 2) - v.begin();
+	int idx3 = upper_bound(a, a + 5, 2) - a;
+	int idx4 = upper_bound(v.begin(),v.end(), 2) - v.begin();
+	cout << idx1 << endl;
+	cout << idx2 << endl;
+	cout << idx3 << endl;
+	cout << idx4 << endl;
+	// fill , max_element ,  remove , Is_sorted(c++11)
+	
+	/*fill(a, a + 5, 10);
+	fill(v.begin(), v.end(), 5);*/
+	int mx = *max_element(a, a + 5);
+	for (int i = 0; i < 5; i++)
+		cout << a[i] << " ";
+	cout << endl; // 1 2 3 4 5
+	remove(a, a + 5, 2); // it not remove actually it replace with last elemnt and decrese size
+	remove(v.begin(), v.end(), 5); // remove all values 5 from vector or array
+
+	for(int i = 0; i < 5; i++)
+		cout << a[i] << " ";
+
+	bool ok = is_sorted(a, a + 5);
+
+	//next_permutation
+	cout << endl;
+	x = "abc"; // o(n!)
+	do{
+		cout << x << endl;
+	} while (next_permutation( x.begin() , x.end() ));
+}
+```
+
+# queue ,deque and priority_queue 
+
+```cpp
+#define _CRT_SECURE_NO_WARNINGS
+#include<bits/stdc++.h>
+#include <bitset>
+#include<queue>  // for queue , priority_queue
+#include<deque>
+using namespace std;
+int main()
+{
+	// STL : Standard Template Library
+	// Data , Algorithm , 
+	// queue , dequeue , priority_queue
+
+
+	/*
+	queue
+	used for ?
+	decleration
+	push
+	pop
+	back  // last
+	front // first
+	size
+	empty
+	*/
+	queue <int> q;
+
+	q.push(1); // o(1)
+
+	q.push(2);
+
+	q.push(3);  // 1 2 3
+
+	 
+	//q.pop(); // o(1)
+
+	
+	cout << q.front() << endl; // first elemnt 
+
+	cout << q.back() << endl; // last elemnt 
+
+	cout << q.size() << endl;
+
+	cout << q.empty() << endl;
+
+	while (!q.empty()){
+		cout << q.front() << " ";
+		q.pop();
+	}
+	
+	// dequeue
+	/*
+	decleration
+	push_back
+	push_front
+	pop_back
+	pop_front
+	size
+	empty
+	clear
+	*/
+	deque<int>de;
+
+	de.push_back(1);  // 3 1 2
+
+	de.push_back(2);  // back add to last 
+
+	de.push_front(3);  // front  add to first
+
+	de.pop_back(); // remove last elemnt 
+
+	de.pop_front(); // remove first elemnt 
+
+	cout << de.size() << endl;
+
+	de.clear(); // clear dequeue
+
+	cout << de.empty() << endl;
+
+
+
+
+	for (int i = 0; i < de.size(); i++){
+		cout << de[i] << endl;
+	}
+
+	/*
+	priority_queue
+
+	decleration
+	push
+	pop
+	top
+	size
+	empty
+
+	*/
+
+	priority_queue<int> p1;
+	priority_queue<int, vector<int>, greater<int> > p2;
+
+	p1.push(1); // 1 2 3 
+	
+	p1.push(3);
+
+	p1.push(2); // log(n)
+
+
+	p1.pop(); // log(n)
+
+
+	p1.top(); // o(1)
+
+	cout << p1.empty() << endl;
+
+	cout << p1.size() << endl;
+
+	while (!p1.empty()){ // --> To pring queue and proirity queue
+		cout << p1.top() << endl;
+		p1.pop();
+	}
+	
+}
+```
