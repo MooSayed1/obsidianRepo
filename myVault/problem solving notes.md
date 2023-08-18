@@ -181,10 +181,116 @@ int main()
 }
 ```
 
-# Vector
+# # vector , struct , pair
 
+```cpp
+#define _CRT_SECURE_NO_WARNINGS
+#include<bits/stdc++.h>
+using namespace std;
+struct point {
+	int x, y;
+};
+struct person {
+	string name;
+	int age;
+};
+int main()
+{
+	file();
+	fast();
+	// struct pair vector 
+	// decleartin and intialize struct 
+	point p;
+	p.x = 1;
+	p.y = 2;
+	// take from user 
+	cin >> p.x >> p.y;
+	cout << p.x << " " << p.y << endl;
+	// array of struct 
+	point arr[100];
+	for (int i = 0; i < 3; i++){
+		cin >> arr[i].x >> arr[i].y;
+	}
+	for (int i = 0; i < 3; i++){
+		cout << arr[i].x << " " << arr[i].y << endl;
+	}
+	
 
-# Pair 
+	// pair 
+	pair<int, int> a; // a.first  a.second 
+	cin >> a.first >> a.second;
+	cout << a.first << " " << a.second << endl;
+
+	// array of pair
+	pair<int, int> arr1[100];
+	// int arr1[100];
+	for (int i = 0; i < 3; i++){
+		cin >> arr1[i].first >> arr1[i].second;
+	}
+	for (int i = 0; i < 3; i++){
+		cout << arr1[i].first << " " << arr1[i].second << endl;
+	}
+
+	// Vector 
+	 //  0 1 2 3   4 
+	 //  5 3 1 10 20
+	// decleration 
+	int n;
+	cin >> n;
+	vector<int> v1(100);  // same as int v1[100];
+	for (int i = 0; i < n; i++){
+		cin >> v1[i];
+	}
+	vector<int> v2(n);
+	for (int i = 0; i < n; i++){
+		cin >> v2[i];
+	}
+	vector<int> v3;
+
+	// 0 5 10 
+	for (int i = 0; i < n; i++){
+		int a;
+		cin >> a;
+		v3.push_back(a);
+	}
+	int sz = v3.size();
+	v3.clear();
+	bool isempty = v3.empty();
+
+	v3.resize(100);
+	v3.resize(n);
+
+	vector<int> v4(100, 5);
+	// 5 5 5 5 ... 
+	v4.pop_back(); // size decrease by 1 
+	cout << v4.size() << endl; // size 99
+
+	int first = *v4.begin();
+	/*
+		 erase
+	*/
+	// 0 1 2 3 
+	v4.erase(v4.begin()+3); // erase elemnt with postion 3
+
+	v4.erase(v4.begin() + 1, v4.begin() + 5); // erase range from [1 , 5)
+
+	// vector 2D 
+	vector< vector<int> >v5; // int v5[][];
+	vector<vector<int> >v5 (50,vector<int>(50)); // int v5[50][50];
+	      // int 
+	vector<pair<int, int> > v6;
+	vector<point> v8;
+	vector<pair<pair<int,int>,float> > v7;
+
+	//
+	v7[0].first.first;
+	v7[0].first.second;
+	v7[0].second;
+
+	// practise practise practise practise 
+
+}
+```
 
 # cpp Algoritms
 
