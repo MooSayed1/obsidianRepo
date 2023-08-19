@@ -499,3 +499,46 @@ int main()
 	
 }
 ```
+
+## Updated Range by prefix sum 
+
+problem about it --> [here](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/F)
+this part of video to explain the idea --> [prefix_sum](https://youtu.be/PhgtNY_-CiY?si=UNTTpLHeuPIS_JPO&t=939)
+>[!note] Solution
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main()
+{
+    int n, q;
+    cin >> n >> q;
+
+    long long arr[n];
+    for (int i = 0; i < n; i++)
+        cin >> arr[i];
+
+    long long pre[n + 1];
+    long long arrZeros[n + 1] = {0};
+
+    while (q--)
+    {
+        int l, r, val;
+        cin >> l >> r >> val;
+        arrZeros[l - 1]+= val;
+        arrZeros[r]-=val;
+    }
+    
+    pre[0] = 0;
+    for (int i = 0; i < n; i++)
+        pre[i + 1] = pre[i] + arrZeros[i];  //--> Prefix sum
+
+    for (int i = 0; i < n; ++i)
+        cout<<pre[i + 1] + arr[i]<<" "; //--> Updated Range
+
+    return 0;
+}
+
+```
+
