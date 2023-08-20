@@ -1,6 +1,6 @@
 [Recursion](https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/)
 
-# Head ,Tail and Head 
+# Head ,Tail and Tree 
 
 ```cpp
 Head Recursion
