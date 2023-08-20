@@ -106,7 +106,7 @@ int main() {
 > هتشوف ده خلال الكود هيشتغل ازاي 
 
 ```cpp
-#define _CRT_SECURE_NO_WARNINGS //--> in visual studio code
+#define _CRT_SECURE_NO_WARNINGS //--> in visual studio 
 #include <stdio.h>
 #include<iostream>
 using namespace std;
