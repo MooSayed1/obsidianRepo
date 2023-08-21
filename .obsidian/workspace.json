@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/DWM.md",
+                "file": "myVault/problem solving notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/DWM.md",
+                "file": "myVault/problem solving notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/DWM.md",
+                "file": "myVault/problem solving notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/DWM.md"
+                "file": "myVault/problem solving notes.md"
               }
             }
           }
@@ -200,14 +200,14 @@
   },
   "active": "e46eb56432d90a8d",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "myVault/Notes Data Structure.md",
     "Linux/DWM.md",
+    "conflict-files-obsidian-git.md",
     "Linux/myScripts/poweroffAfterHour.sh",
     "Linux/Shell Scripting.md",
     "Linux/Nvim and configration of it.md",
     "Linux/Linux Command.md",
     "myVault/problem solving notes.md",
-    "myVault/Notes Data Structure.md",
     "myVault/Vault is just a local folder.md",
     "myVault/Recursion.md",
     "myVault/Git Hub Command.md",
