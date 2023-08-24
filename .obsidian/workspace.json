@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "myVault/STL.md",
+                "file": "myVault/Notes Data Structure.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "section:()",
+                "query": "binary",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +116,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -136,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "myVault/STL.md",
+                "file": "myVault/Notes Data Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "myVault/STL.md",
+                "file": "myVault/Notes Data Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "myVault/STL.md"
+                "file": "myVault/Notes Data Structure.md"
               }
             }
           }
@@ -201,6 +202,7 @@
   "active": "e46eb56432d90a8d",
   "lastOpenFiles": [
     "myVault/problem solving notes.md",
+    "Untitled.md",
     "myVault/STL.md",
     "myVault/Notes Data Structure.md",
     "Linux/DWM.md",
@@ -230,7 +232,6 @@
     "Formatting/Horizontal divider.md",
     "Formatting/Highlighting.md",
     "Formatting/Heading.md",
-    "Formatting/Format your notes.md",
     "Untitled.canvas",
     "Linux/myScripts/collectingScript.sh",
     "Linux/myScripts/nvim-switch.sh",

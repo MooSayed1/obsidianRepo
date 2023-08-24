@@ -96,7 +96,7 @@ int main() {
 ```
 
 # scanf , printf
-<<<<<<< HEAD
+
 
 >[!Note] why use scanf and printf
 > why we need to use scanf and printf
@@ -500,7 +500,7 @@ int main()
 	
 }
 ```
-=======
+
 
 >[!Note] why use scanf and printf
 > why we need to use scanf and printf
@@ -946,5 +946,3 @@ int main()
 }
 
 ```
-
->>>>>>> origin/main
