@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "myVault/Notes Data Structure.md",
+                "file": "myVault/Git Hub Command.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "binary",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,8 +116,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -137,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "myVault/Notes Data Structure.md",
+                "file": "myVault/Git Hub Command.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "myVault/Notes Data Structure.md",
+                "file": "myVault/Git Hub Command.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "myVault/Notes Data Structure.md"
+                "file": "myVault/Git Hub Command.md"
               }
             }
           }
@@ -201,10 +200,10 @@
   },
   "active": "e46eb56432d90a8d",
   "lastOpenFiles": [
+    "myVault/Notes Data Structure.md",
     "myVault/problem solving notes.md",
     "Untitled.md",
     "myVault/STL.md",
-    "myVault/Notes Data Structure.md",
     "Linux/DWM.md",
     "conflict-files-obsidian-git.md",
     "Linux/myScripts/poweroffAfterHour.sh",
