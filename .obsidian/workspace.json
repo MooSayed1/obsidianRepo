@@ -179,6 +179,16 @@
                 "file": "myVault/Git Hub Command.md"
               }
             }
+          },
+          {
+            "id": "fe25c2452c6ab0b4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ]
       }
