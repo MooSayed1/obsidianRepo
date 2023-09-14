@@ -39,9 +39,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "myVault/Git Hub Command.md",
+                "file": "Linux/Shell Scripting.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "4b4585892e3ae44a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.12"
               }
             }
           },
@@ -70,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -136,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "myVault/Git Hub Command.md",
+                "file": "Linux/Shell Scripting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "myVault/Git Hub Command.md",
+                "file": "Linux/Shell Scripting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "myVault/Git Hub Command.md"
+                "file": "Linux/Shell Scripting.md"
               }
             }
           },
@@ -208,10 +218,10 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "e46eb56432d90a8d",
+  "active": "4b4585892e3ae44a",
   "lastOpenFiles": [
-    "myVault/problem solving notes.md",
     "myVault/Git Hub Command.md",
+    "myVault/problem solving notes.md",
     "myVault/Notes Data Structure.md",
     "Untitled.md",
     "myVault/STL.md",
