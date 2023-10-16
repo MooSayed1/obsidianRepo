@@ -909,6 +909,7 @@ int main()
 
 problem about it --> [here](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/F)
 this part of video to explain the idea --> [prefix_sum](https://youtu.be/PhgtNY_-CiY?si=UNTTpLHeuPIS_JPO&t=939)
+
 >[!note] Solution
 ```cpp
 #include <iostream>
@@ -946,3 +947,4 @@ int main()
 }
 
 ```
+
