@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "myVault/Git Hub Command.md",
+                "file": "Linux/Shell Scripting.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "myVault/Git Hub Command.md",
+                "file": "Linux/Shell Scripting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "myVault/Git Hub Command.md",
+                "file": "Linux/Shell Scripting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "myVault/Git Hub Command.md"
+                "file": "Linux/Shell Scripting.md"
               }
             }
           },
@@ -232,10 +232,10 @@
   },
   "active": "5e477675833f51a9",
   "lastOpenFiles": [
+    "myVault/Git Hub Command.md",
     "myVault/Notes Data Structure.md",
     "myVault/problem solving notes.md",
     "myVault/Recursion.md",
-    "myVault/Git Hub Command.md",
     "Linux/Linux Command.md",
     "Linux/Shell Scripting.md",
     "Untitled.md",
