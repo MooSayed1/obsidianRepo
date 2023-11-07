@@ -85,14 +85,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Shell Scripting.md",
+                "file": "Linux/Linux Command.md",
                 "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0cc695bdf6ac67c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "myVault/Git Hub Command.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -159,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Shell Scripting.md",
+                "file": "myVault/Git Hub Command.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Shell Scripting.md",
+                "file": "myVault/Git Hub Command.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Shell Scripting.md"
+                "file": "myVault/Git Hub Command.md"
               }
             }
           },
@@ -231,14 +243,14 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "5e477675833f51a9",
+  "active": "0cc695bdf6ac67c5",
   "lastOpenFiles": [
+    "Linux/Shell Scripting.md",
+    "Linux/Linux Command.md",
     "myVault/Git Hub Command.md",
     "myVault/Notes Data Structure.md",
     "myVault/problem solving notes.md",
     "myVault/Recursion.md",
-    "Linux/Linux Command.md",
-    "Linux/Shell Scripting.md",
     "Untitled.md",
     "myVault/STL.md",
     "Linux/DWM.md",
