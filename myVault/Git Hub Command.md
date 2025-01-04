@@ -2,7 +2,7 @@
 
 
 
-```md
+```js
 
 - `git clone "link"`: This command is used to clone a remote repository to your local machine. The "link" parameter should be replaced with the URL of the remote repository you want to clone.
     
@@ -15,7 +15,42 @@
 - `git reset head "name of file"`: This command is used to remove a file from the staging area. You can replace "name of file" with the name of the file you want to remove.
     
 - `git commit -m "the message you want to write"`: This command is used to create a new commit with the changes you've made. The "-m" parameter is used to add a commit message, which should briefly describe the changes you've made.
+
+   
 ```
+
+
+## get back in versions and changes
+
+```js
+- `git restore <file>` : this dispcard changed that not staged 
+  يعني من الاخر بيمسح التعديلات الي مش مرفوعه ع الستديج
+
+ - `git restore --staged <file>` : to make unstaged  
+   after this if you want to discard these changes make git restore 
+
+ - `git commit --amend` : to edit the last commit description
+
+ - `git log -- oneline` : بيظهر اللوج بشكل احسن شويه 
+
+ - `git diff` : get the difference between the working tree and stage area 
+
+ - `git diff --staged` : this get the difference between staged area and the repo 
+- `git diff <shaFirstOne> <shaSecondOne>`: this get difference between 2 commits
+
+// Versions 
+
+	- `git reset HEAD~1` : ده كدا بيرجع لاخر فيرجن 
+	  and you can change number 1 to any number version
+	  you can add option -- hard to reflict the changes to working tree directly       but this is dingerace
+
+	  - git reflog : to see references operations 
+	  -fast forward to back يعني انت رحعت للفيرجن الي فات وعايز ترجع تاني للي كنت فيها
+	  git reset --hard HEAD@{1}  // ده كدا هيرجع للفيرجن دي تاني fast forward 
+	  // واحد بيرجع والتاني بيخش قدام
+
+```
+
 
 ![[Pasted image 20230712100209.png]]
 ```md
@@ -28,9 +63,20 @@
     
 - `git pull nameofrepo`: This command is used to download changes from a remote repository to your local repository. It retrieves all the changes from the remote repository and integrates them into your local repository.
     
-- `git log`: This command is used to display the commit history of the current branch. It will show you the author, date, and commit message for each commit.
+- `git log --oneline`: This command is used to display the commit history of the current branch. It will show you the author, date, and commit message for each commit.
 ```
 
+```sh
+### …or create a new repository on the command line
+
+echo "# firstFrameWork" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:MooSayed1/firstFrameWork.git
+git push -u origin main
+```
  # Shell secure key
  ```shell
 git remote set-url origin https://github.com/OWNER/REPOSITORY.git

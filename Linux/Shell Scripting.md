@@ -439,7 +439,7 @@ look at this in a read mood : )
 |$1|Name of current command's first parameter|`echo "My first argument is $1"`|
 |$9|Name of current command's ninth parameter|`echo "My ninth argument is $9"`|
 |$@|All of current command's parameters (preserving whitespace and quoting)|`echo "My arguments are $@"`|
-|$*|All of current command's parameters (not preserving whitespace and quoting)|`echo "My arguments are $*"`|
+|$* |All of current command's parameters (not preserving whitespace and quoting)|`echo "My arguments are $*"`|
 |-eq|Numeric Equality|`if [ "$foo" -eq "9" ]`|
 |-ne|Numeric Inquality|`if [ "$foo" -ne "9" ]`|
 |-lt|Less Than|`if [ "$foo" -lt "9" ]`|

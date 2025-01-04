@@ -24,7 +24,7 @@ one second eqal => 1e8
 # prefix sum
 
 This code based 0
-```c++
+```cpp
 #include <iostream>
 #include <vector>
 
@@ -295,7 +295,7 @@ int main()
 
 # cpp Algoritms
 
- ```c++
+ ```cpp
  #define _CRT_SECURE_NO_WARNINGS
 #include<bits/stdc++.h>
 using namespace std;
@@ -699,7 +699,7 @@ int main()
 
 # cpp Algoritms
 
- ```c++
+ ```cpp
  #define _CRT_SECURE_NO_WARNINGS
 #include<bits/stdc++.h>
 using namespace std;

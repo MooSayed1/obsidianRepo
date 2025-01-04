@@ -22,7 +22,7 @@ We currently support the formats below:
 
 ![[Code block]]
 
-![[Task]]
+![[obsidianRepo/Formatting/Task]]
 
 ![[Table]]
 

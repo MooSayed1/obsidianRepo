@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "f8a7488c4ea899ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a1c39b0ecc2c9c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "44d6e730634114b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer_Architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fba37b03720bc7a1",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Computer_Architecture_draw.md"
+              }
+            }
+          },
+          {
+            "id": "1b4e87abbb6cbd0d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Math.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b5ac279d09773021",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d9e01baa12b5c04",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c7f4813c789edf02",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a3e33f55c66651aa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cf8bb03d7f3de22f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "1588dec23189f057",
+    "type": "split",
+    "children": [
+      {
+        "id": "b54560063d1c1728",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe24ace9227833c8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Excalidraw/Math.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e391c14018734e36",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Excalidraw/Math.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "da88b62fdcc80912",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d55a59f76baad5f5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Excalidraw/Math.md"
+              }
+            }
+          },
+          {
+            "id": "de8792c322d5a0e8",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "550ad58c1979c89c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "1b4e87abbb6cbd0d",
+  "lastOpenFiles": [
+    "Excalidraw/Computer_Architecture_draw.md",
+    "Excalidraw/Math.md",
+    "2023-10-31.md",
+    "Computer_Architecture.md",
+    "German Words.md",
+    "Pasted Image 20231031154636_018.png",
+    "Recording 20231019114650.webm",
+    "Pasted Image 20231031154606_016.png",
+    "Pasted Image 20231031045525_477.png",
+    "Pasted Image 20231031045530_648.png",
+    "Excalidraw/Drawing 2023-10-31 04.40.37.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-31 04.45.18.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-31 04.39.24.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-31 04.44.15.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-31 04.44.17.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-31 04.44.16.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-31 04.44.12.excalidraw.md",
+    "Drawing 2023-10-31 04.43.17.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-31 04.40.05.excalidraw.md",
+    "Drawing 2023-10-31 03.02.10.excalidraw.md",
+    "Excalidraw",
+    "Tasks.md",
+    "Formatting/Blockquote.md",
+    "Formatting/Callout.md",
+    "Formatting/Code block.md",
+    "Formatting/Comment.md",
+    "Formatting/Diagram.md",
+    "Formatting/Embeds.md",
+    "Formatting/Emphasis.md",
+    "Formatting/Footnote.md",
+    "Formatting/Format your notes.md",
+    "Recording 20231019114746.webm",
+    "Recording 20231019114500.webm",
+    "Recording 20231019114351.webm",
+    "Recording 20231019114320.webm",
+    "Formatting"
+  ]
+}

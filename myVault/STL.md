@@ -1,9 +1,0 @@
-## iterator
-## vector
-## quque
-## deque
-## priorty_queue
-## list 
-## set 
-## stack
-## pair 

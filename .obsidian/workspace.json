@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "myVault/Git Hub Command.md",
+                "file": "Linux/Linux Command.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "myVault/Git Hub Command.md",
+                "file": "Linux/Linux Command.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "myVault/Git Hub Command.md"
+                "file": "Linux/Linux Command.md"
               }
             }
           },
@@ -243,11 +243,11 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "0cc695bdf6ac67c5",
+  "active": "5e477675833f51a9",
   "lastOpenFiles": [
+    "myVault/Git Hub Command.md",
     "Linux/Shell Scripting.md",
     "Linux/Linux Command.md",
-    "myVault/Git Hub Command.md",
     "myVault/Notes Data Structure.md",
     "myVault/problem solving notes.md",
     "myVault/Recursion.md",
