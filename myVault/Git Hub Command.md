@@ -20,7 +20,7 @@
 ```
 
 
-## get back in versions and changes
+## Un Doing Things
 
 ```js
 - `git restore <file>` : this dispcard changed that not staged 
@@ -53,17 +53,36 @@
 
 
 ![[Pasted image 20230712100209.png]]
-```md
 
-- `git branch`: This command is used to list all the branches in your local repository, and to show which branch you are currently on.
+## Tags
+
+```js
+
+git tag -a v2.0 -m "Version 2.0 of file"  // زي ما يكون بتعلم الكوميت ده بانه فيرجن جديده
+
+git show v2.0 --> it make it easier to show when make versions
+
+```
+
+
+## Git Branching
+
+```shell
+- `git branch nameofbranch`: create branch 
     
-- `git remote -v`: This command is used to list the names and URLs of all the remote repositories your local repository is connected to.
+- `git branch`: display all branches
     
-- `git push -u nameofrepo nameofbranch`: This command is used to push your local commits to a remote repository. Replace "nameofrepo" with the name of the remote repository and "nameofbranch" with the name of the branch you want to push to.
+- `git switch  nameofbranch`: switch to another branch 
+
+- `git branch -d nameofbranch`: delete branch with warnings if you dont merge this branch.
+
+- git branch --merge : display all merged branches in master.
+
+- `git branch -D nameofbranch`: This command is used to force delete the branch with the name "nameofbranch", even if you have made changes in the branch and have not merged them.
     
-- `git pull nameofrepo`: This command is used to download changes from a remote repository to your local repository. It retrieves all the changes from the remote repository and integrates them into your local repository.
-    
-- `git log --oneline`: This command is used to display the commit history of the current branch. It will show you the author, date, and commit message for each commit.
+- `git checkout -b nameofbranch`: This command is used to create a new branch with the name "nameofbranch" and switch to it in one step.
+• `git branch -m newName` rename breach you are in it 
+• `git merge nameofbranch`  merge master or the brach you are in by the branch you want
 ```
 
 ```sh
@@ -156,5 +175,6 @@ These are just a few of the many commands available in Git and GitHub. For more 
 • `git branch -m newName` rename breach you are in it 
 • `git merge nameofbranch`  merge master or the brach you are in by the branch you want
 ```
-# 
 
+
+ 
